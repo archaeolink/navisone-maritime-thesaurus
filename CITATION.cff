@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+authors:
+  - family-names: Thiery
+    given-names: Florian
+    orcid: https://orcid.org/0000-0002-3246-3531
+  - family-names: Allard W.
+    given-names: Mees
+    orcid: https://orcid.org/0000-0002-7634-5342
+  - name: "NAVIS.one Maritime Thesaurus"
+title: "NAVIS.one Maritime Thesaurus"
+abstract: Maritime thesaurus based on the NAVIS I-III databases.
+version: 0.1
+type: dataset
+doi: TBD
+date-released: 2022-11-18
+identifiers:
+  - description: This is the collection of archived snapshots of all versions
+    type: doi
+    value: "TBD"
+  - description: This is the archived snapshot of version 0.1
+    type: doi
+    value: "TBD"
+repository-code: "https://github.com/archaeolink/navisone-maritime-thesaurus"
+keywords:
+  - "Linked Open Data"
+  - "Ships"
+contact:
+  - affiliation: "RGZM, Mainz Germany"
+    email: florian.thiery@rgzm.de
+    family-names: Florian
+    given-names: Thiery
+preferred-citation:
+  authors:
+    - family-names: Thiery
+      given-names: Florian
+    - family-names: Mees
+      given-names: Allard W. 
+  title: "NAVIS.one Maritime Thesaurus"
+  type: dataset
+  year: 2022
