@@ -1,0 +1,57 @@
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://creativecommons.org/ns#attributionName> "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des RGZM" .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://creativecommons.org/ns#attributionURL> <http://www.wikidata.org/entity/Q115264627> .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by-sa/4.0/> .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://purl.org/dc/terms/identifier> <http://data.archaeology.link/data/maritimethesaurus/> .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://purl.org/dc/terms/issued> "2022-11-18T13:14:49.002454+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q115264627> .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://www.w3.org/2000/01/rdf-schema#label> "Sejl og rig"@de .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://www.w3.org/2000/01/rdf-schema#label> "Sailing gear"@en .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://www.w3.org/2000/01/rdf-schema#label> "Sejl og rig"@dk .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://www.w3.org/2000/01/rdf-schema#label> "Zeiltuig"@nl .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://www.w3.org/2000/01/rdf-schema#label> "Voilage"@fr .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://www.w3.org/2000/01/rdf-schema#label> "Velatura"@it .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://www.w3.org/2000/01/rdf-schema#label> "aparejo velero"@es .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://www.w3.org/2000/01/rdf-schema#label> "Osprzęt żaglowy"@pl .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://www.w3.org/2000/01/rdf-schema#label> "Εξαρτισμός (αρματωσιά)"@gr .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://www.w3.org/2000/01/rdf-schema#label> "ערך; מערך שיט"@he .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.archaeology.link/data/maritimethesaurus/cs01> .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2586> .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2589> .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2604> .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2603> .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2593> .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2596> .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2594> .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2605> .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2606> .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2607> .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2598> .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2599> .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2600> .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2601> .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2602> .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2597> .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2595> .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2587> .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2590> .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2608> .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2588> .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2591> .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2592> .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://www.w3.org/2004/02/skos/core#note> "This is a parent Concept of NAVIS I or NAVIS II."@en .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sejl og rig"@de .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sailing gear"@en .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sejl og rig"@dk .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zeiltuig"@nl .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://www.w3.org/2004/02/skos/core#prefLabel> "Voilage"@fr .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://www.w3.org/2004/02/skos/core#prefLabel> "Velatura"@it .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://www.w3.org/2004/02/skos/core#prefLabel> "aparejo velero"@es .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://www.w3.org/2004/02/skos/core#prefLabel> "Osprzęt żaglowy"@pl .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://www.w3.org/2004/02/skos/core#prefLabel> "Εξαρτισμός (αρματωσιά)"@gr .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://www.w3.org/2004/02/skos/core#prefLabel> "ערך; מערך שיט"@he .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.archaeology.link/data/maritimethesaurus/cs01> .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://www.w3.org/ns/prov#wasAttributedTo> <http://data.archaeology.link/data/maritimethesaurus/ImportPythonScript> .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.wikidata.org/entity/Q115264680> .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://www.w3.org/ns/prov#wasGeneratedBy> <http://data.archaeology.link/data/maritimethesaurus/activity_1010> .
+<http://data.archaeology.link/data/maritimethesaurus/1010> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

@@ -1,0 +1,77 @@
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://creativecommons.org/ns#attributionName> "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des RGZM" .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://creativecommons.org/ns#attributionURL> <http://www.wikidata.org/entity/Q115264627> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by-sa/4.0/> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://purl.org/dc/terms/identifier> <http://data.archaeology.link/data/maritimethesaurus/> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://purl.org/dc/terms/issued> "2022-11-18T13:14:49.002454+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q115264627> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2000/01/rdf-schema#label> "Konstruktionsmæssige træk"@de .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2000/01/rdf-schema#label> "Constructional features"@en .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2000/01/rdf-schema#label> "Konstruktionsmæssige træk"@dk .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2000/01/rdf-schema#label> "Huidverbindingen"@nl .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2000/01/rdf-schema#label> "Caractéristiques de construction"@fr .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2000/01/rdf-schema#label> "Caratteristiche costruttive"@it .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2000/01/rdf-schema#label> "características de construcción"@es .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2000/01/rdf-schema#label> "Cechy konstrukcyjne"@pl .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2000/01/rdf-schema#label> "Κατασκευαστικά Χαρακτηριστικά"@gr .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2000/01/rdf-schema#label> "מאפיינים של הבניה"@he .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.archaeology.link/data/maritimethesaurus/cs01> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2655> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2656> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2658> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2659> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2660> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2661> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2665> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2666> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2668> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2579> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2685> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2686> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2687> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2688> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2689> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2657> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2663> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2654> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2573> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2574> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2680> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2677> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2678> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2679> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2681> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2682> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2683> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2684> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2585> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2577> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2580> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2581> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2582> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2576> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2575> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2583> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2578> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2673> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2674> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2650> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2651> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2652> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2653> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#note> "This is a parent Concept of NAVIS I or NAVIS II."@en .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#prefLabel> "Konstruktionsmæssige træk"@de .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#prefLabel> "Constructional features"@en .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#prefLabel> "Konstruktionsmæssige træk"@dk .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#prefLabel> "Huidverbindingen"@nl .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#prefLabel> "Caractéristiques de construction"@fr .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#prefLabel> "Caratteristiche costruttive"@it .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#prefLabel> "características de construcción"@es .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cechy konstrukcyjne"@pl .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#prefLabel> "Κατασκευαστικά Χαρακτηριστικά"@gr .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#prefLabel> "מאפיינים של הבניה"@he .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.archaeology.link/data/maritimethesaurus/cs01> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/ns/prov#wasAttributedTo> <http://data.archaeology.link/data/maritimethesaurus/ImportPythonScript> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.wikidata.org/entity/Q115264680> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://www.w3.org/ns/prov#wasGeneratedBy> <http://data.archaeology.link/data/maritimethesaurus/activity_1009> .
+<http://data.archaeology.link/data/maritimethesaurus/1009> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

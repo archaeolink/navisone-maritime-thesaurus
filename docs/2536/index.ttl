@@ -1,0 +1,34 @@
+<http://data.archaeology.link/data/maritimethesaurus/2536> <http://creativecommons.org/ns#attributionName> "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des RGZM" .
+<http://data.archaeology.link/data/maritimethesaurus/2536> <http://creativecommons.org/ns#attributionURL> <http://www.wikidata.org/entity/Q115264627> .
+<http://data.archaeology.link/data/maritimethesaurus/2536> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by-sa/4.0/> .
+<http://data.archaeology.link/data/maritimethesaurus/2536> <http://purl.org/dc/terms/identifier> <http://data.archaeology.link/data/maritimethesaurus/> .
+<http://data.archaeology.link/data/maritimethesaurus/2536> <http://purl.org/dc/terms/issued> "2022-11-18T13:14:49.027431+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://data.archaeology.link/data/maritimethesaurus/2536> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q115264627> .
+<http://data.archaeology.link/data/maritimethesaurus/2536> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://data.archaeology.link/data/maritimethesaurus/2536> <http://www.w3.org/2000/01/rdf-schema#label> "Kaffe"@de .
+<http://data.archaeology.link/data/maritimethesaurus/2536> <http://www.w3.org/2000/01/rdf-schema#label> "Swim-Head"@en .
+<http://data.archaeology.link/data/maritimethesaurus/2536> <http://www.w3.org/2000/01/rdf-schema#label> "Kaff"@dk .
+<http://data.archaeology.link/data/maritimethesaurus/2536> <http://www.w3.org/2000/01/rdf-schema#label> "Heve"@nl .
+<http://data.archaeology.link/data/maritimethesaurus/2536> <http://www.w3.org/2000/01/rdf-schema#label> "Élancement"@fr .
+<http://data.archaeology.link/data/maritimethesaurus/2536> <http://www.w3.org/2000/01/rdf-schema#label> "Slancio"@it .
+<http://data.archaeology.link/data/maritimethesaurus/2536> <http://www.w3.org/2000/01/rdf-schema#label> "popa / proa a rampa"@es .
+<http://data.archaeology.link/data/maritimethesaurus/2536> <http://www.w3.org/2000/01/rdf-schema#label> "Skrajnik dziobowy"@pl .
+<http://data.archaeology.link/data/maritimethesaurus/2536> <http://www.w3.org/2000/01/rdf-schema#label> "Swim-Head"@gr .
+<http://data.archaeology.link/data/maritimethesaurus/2536> <http://www.w3.org/2000/01/rdf-schema#label> "`Swimhead`"""@he .
+<http://data.archaeology.link/data/maritimethesaurus/2536> <http://www.w3.org/2004/02/skos/core#broader> <http://data.archaeology.link/data/maritimethesaurus/1006> .
+<http://data.archaeology.link/data/maritimethesaurus/2536> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.archaeology.link/data/maritimethesaurus/cs01> .
+<http://data.archaeology.link/data/maritimethesaurus/2536> <http://www.w3.org/2004/02/skos/core#note> "This is a Concept of NAVIS I or NAVIS II."@en .
+<http://data.archaeology.link/data/maritimethesaurus/2536> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kaffe"@de .
+<http://data.archaeology.link/data/maritimethesaurus/2536> <http://www.w3.org/2004/02/skos/core#prefLabel> "Swim-Head"@en .
+<http://data.archaeology.link/data/maritimethesaurus/2536> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kaff"@dk .
+<http://data.archaeology.link/data/maritimethesaurus/2536> <http://www.w3.org/2004/02/skos/core#prefLabel> "Heve"@nl .
+<http://data.archaeology.link/data/maritimethesaurus/2536> <http://www.w3.org/2004/02/skos/core#prefLabel> "Élancement"@fr .
+<http://data.archaeology.link/data/maritimethesaurus/2536> <http://www.w3.org/2004/02/skos/core#prefLabel> "Slancio"@it .
+<http://data.archaeology.link/data/maritimethesaurus/2536> <http://www.w3.org/2004/02/skos/core#prefLabel> "popa / proa a rampa"@es .
+<http://data.archaeology.link/data/maritimethesaurus/2536> <http://www.w3.org/2004/02/skos/core#prefLabel> "Skrajnik dziobowy"@pl .
+<http://data.archaeology.link/data/maritimethesaurus/2536> <http://www.w3.org/2004/02/skos/core#prefLabel> "Swim-Head"@gr .
+<http://data.archaeology.link/data/maritimethesaurus/2536> <http://www.w3.org/2004/02/skos/core#prefLabel> "`Swimhead`"""@he .
+<http://data.archaeology.link/data/maritimethesaurus/2536> <http://www.w3.org/ns/prov#wasAttributedTo> <http://data.archaeology.link/data/maritimethesaurus/ImportPythonScript> .
+<http://data.archaeology.link/data/maritimethesaurus/2536> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.wikidata.org/entity/Q115264680> .
+<http://data.archaeology.link/data/maritimethesaurus/2536> <http://www.w3.org/ns/prov#wasGeneratedBy> <http://data.archaeology.link/data/maritimethesaurus/activity_2536> .
+<http://data.archaeology.link/data/maritimethesaurus/2536> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

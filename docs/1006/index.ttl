@@ -1,0 +1,69 @@
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://creativecommons.org/ns#attributionName> "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des RGZM" .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://creativecommons.org/ns#attributionURL> <http://www.wikidata.org/entity/Q115264627> .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by-sa/4.0/> .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://purl.org/dc/terms/identifier> <http://data.archaeology.link/data/maritimethesaurus/> .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://purl.org/dc/terms/issued> "2022-11-18T13:14:49.001532+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q115264627> .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2000/01/rdf-schema#label> "Skrog"@de .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2000/01/rdf-schema#label> "Hull"@en .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2000/01/rdf-schema#label> "Skrog"@dk .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2000/01/rdf-schema#label> "Huid"@nl .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2000/01/rdf-schema#label> "Coque extérieure"@fr .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2000/01/rdf-schema#label> "Scafo"@it .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2000/01/rdf-schema#label> "casco"@es .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2000/01/rdf-schema#label> "Kadłub"@pl .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2000/01/rdf-schema#label> "Σκάφος (Σκαρί)"@gr .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2000/01/rdf-schema#label> "גוף כלי שיט"@he .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.archaeology.link/data/maritimethesaurus/cs01> .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2527> .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2528> .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2529> .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2545> .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2537> .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2523> .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2524> .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2690> .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2691> .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2692> .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2697> .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2525> .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2526> .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2530> .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2531> .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2535> .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2538> .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2539> .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2533> .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2536> .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2546> .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2534> .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2532> .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2540> .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2542> .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2544> .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2541> .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2543> .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2547> .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2693> .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2694> .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2695> .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2696> .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2548> .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2549> .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2004/02/skos/core#note> "This is a parent Concept of NAVIS I or NAVIS II."@en .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2004/02/skos/core#prefLabel> "Skrog"@de .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hull"@en .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2004/02/skos/core#prefLabel> "Skrog"@dk .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2004/02/skos/core#prefLabel> "Huid"@nl .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2004/02/skos/core#prefLabel> "Coque extérieure"@fr .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2004/02/skos/core#prefLabel> "Scafo"@it .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2004/02/skos/core#prefLabel> "casco"@es .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kadłub"@pl .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2004/02/skos/core#prefLabel> "Σκάφος (Σκαρί)"@gr .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2004/02/skos/core#prefLabel> "גוף כלי שיט"@he .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.archaeology.link/data/maritimethesaurus/cs01> .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/ns/prov#wasAttributedTo> <http://data.archaeology.link/data/maritimethesaurus/ImportPythonScript> .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.wikidata.org/entity/Q115264680> .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://www.w3.org/ns/prov#wasGeneratedBy> <http://data.archaeology.link/data/maritimethesaurus/activity_1006> .
+<http://data.archaeology.link/data/maritimethesaurus/1006> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

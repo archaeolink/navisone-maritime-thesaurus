@@ -1,0 +1,34 @@
+<http://data.archaeology.link/data/maritimethesaurus/2618> <http://creativecommons.org/ns#attributionName> "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des RGZM" .
+<http://data.archaeology.link/data/maritimethesaurus/2618> <http://creativecommons.org/ns#attributionURL> <http://www.wikidata.org/entity/Q115264627> .
+<http://data.archaeology.link/data/maritimethesaurus/2618> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by-sa/4.0/> .
+<http://data.archaeology.link/data/maritimethesaurus/2618> <http://purl.org/dc/terms/identifier> <http://data.archaeology.link/data/maritimethesaurus/> .
+<http://data.archaeology.link/data/maritimethesaurus/2618> <http://purl.org/dc/terms/issued> "2022-11-18T13:14:49.039468+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://data.archaeology.link/data/maritimethesaurus/2618> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q115264627> .
+<http://data.archaeology.link/data/maritimethesaurus/2618> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://data.archaeology.link/data/maritimethesaurus/2618> <http://www.w3.org/2000/01/rdf-schema#label> "Ruderducht (Sitz)"@de .
+<http://data.archaeology.link/data/maritimethesaurus/2618> <http://www.w3.org/2000/01/rdf-schema#label> "Thwart"@en .
+<http://data.archaeology.link/data/maritimethesaurus/2618> <http://www.w3.org/2000/01/rdf-schema#label> "Tofte"@dk .
+<http://data.archaeology.link/data/maritimethesaurus/2618> <http://www.w3.org/2000/01/rdf-schema#label> "Roeibank"@nl .
+<http://data.archaeology.link/data/maritimethesaurus/2618> <http://www.w3.org/2000/01/rdf-schema#label> "Banc De Nage"@fr .
+<http://data.archaeology.link/data/maritimethesaurus/2618> <http://www.w3.org/2000/01/rdf-schema#label> "Sedile"@it .
+<http://data.archaeology.link/data/maritimethesaurus/2618> <http://www.w3.org/2000/01/rdf-schema#label> "bancada"@es .
+<http://data.archaeology.link/data/maritimethesaurus/2618> <http://www.w3.org/2000/01/rdf-schema#label> "Ława"@pl .
+<http://data.archaeology.link/data/maritimethesaurus/2618> <http://www.w3.org/2000/01/rdf-schema#label> "Σέλμα, Πάγκος"@gr .
+<http://data.archaeology.link/data/maritimethesaurus/2618> <http://www.w3.org/2000/01/rdf-schema#label> "ספסל"@he .
+<http://data.archaeology.link/data/maritimethesaurus/2618> <http://www.w3.org/2004/02/skos/core#broader> <http://data.archaeology.link/data/maritimethesaurus/1012> .
+<http://data.archaeology.link/data/maritimethesaurus/2618> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.archaeology.link/data/maritimethesaurus/cs01> .
+<http://data.archaeology.link/data/maritimethesaurus/2618> <http://www.w3.org/2004/02/skos/core#note> "This is a Concept of NAVIS I or NAVIS II."@en .
+<http://data.archaeology.link/data/maritimethesaurus/2618> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ruderducht (Sitz)"@de .
+<http://data.archaeology.link/data/maritimethesaurus/2618> <http://www.w3.org/2004/02/skos/core#prefLabel> "Thwart"@en .
+<http://data.archaeology.link/data/maritimethesaurus/2618> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tofte"@dk .
+<http://data.archaeology.link/data/maritimethesaurus/2618> <http://www.w3.org/2004/02/skos/core#prefLabel> "Roeibank"@nl .
+<http://data.archaeology.link/data/maritimethesaurus/2618> <http://www.w3.org/2004/02/skos/core#prefLabel> "Banc De Nage"@fr .
+<http://data.archaeology.link/data/maritimethesaurus/2618> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sedile"@it .
+<http://data.archaeology.link/data/maritimethesaurus/2618> <http://www.w3.org/2004/02/skos/core#prefLabel> "bancada"@es .
+<http://data.archaeology.link/data/maritimethesaurus/2618> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ława"@pl .
+<http://data.archaeology.link/data/maritimethesaurus/2618> <http://www.w3.org/2004/02/skos/core#prefLabel> "Σέλμα, Πάγκος"@gr .
+<http://data.archaeology.link/data/maritimethesaurus/2618> <http://www.w3.org/2004/02/skos/core#prefLabel> "ספסל"@he .
+<http://data.archaeology.link/data/maritimethesaurus/2618> <http://www.w3.org/ns/prov#wasAttributedTo> <http://data.archaeology.link/data/maritimethesaurus/ImportPythonScript> .
+<http://data.archaeology.link/data/maritimethesaurus/2618> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.wikidata.org/entity/Q115264680> .
+<http://data.archaeology.link/data/maritimethesaurus/2618> <http://www.w3.org/ns/prov#wasGeneratedBy> <http://data.archaeology.link/data/maritimethesaurus/activity_2618> .
+<http://data.archaeology.link/data/maritimethesaurus/2618> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

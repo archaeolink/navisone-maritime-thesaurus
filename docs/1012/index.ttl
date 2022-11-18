@@ -1,0 +1,43 @@
+<http://data.archaeology.link/data/maritimethesaurus/1012> <http://creativecommons.org/ns#attributionName> "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des RGZM" .
+<http://data.archaeology.link/data/maritimethesaurus/1012> <http://creativecommons.org/ns#attributionURL> <http://www.wikidata.org/entity/Q115264627> .
+<http://data.archaeology.link/data/maritimethesaurus/1012> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by-sa/4.0/> .
+<http://data.archaeology.link/data/maritimethesaurus/1012> <http://purl.org/dc/terms/identifier> <http://data.archaeology.link/data/maritimethesaurus/> .
+<http://data.archaeology.link/data/maritimethesaurus/1012> <http://purl.org/dc/terms/issued> "2022-11-18T13:14:49.002454+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://data.archaeology.link/data/maritimethesaurus/1012> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q115264627> .
+<http://data.archaeology.link/data/maritimethesaurus/1012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://data.archaeology.link/data/maritimethesaurus/1012> <http://www.w3.org/2000/01/rdf-schema#label> "Roning og padling"@de .
+<http://data.archaeology.link/data/maritimethesaurus/1012> <http://www.w3.org/2000/01/rdf-schema#label> "Rowing and paddling"@en .
+<http://data.archaeology.link/data/maritimethesaurus/1012> <http://www.w3.org/2000/01/rdf-schema#label> "Roning og padling"@dk .
+<http://data.archaeology.link/data/maritimethesaurus/1012> <http://www.w3.org/2000/01/rdf-schema#label> "Roeien en peddelen"@nl .
+<http://data.archaeology.link/data/maritimethesaurus/1012> <http://www.w3.org/2000/01/rdf-schema#label> "À ramse et à pagaye"@fr .
+<http://data.archaeology.link/data/maritimethesaurus/1012> <http://www.w3.org/2000/01/rdf-schema#label> "Remi e pagaia"@it .
+<http://data.archaeology.link/data/maritimethesaurus/1012> <http://www.w3.org/2000/01/rdf-schema#label> "propulsión a remo y a canalete"@es .
+<http://data.archaeology.link/data/maritimethesaurus/1012> <http://www.w3.org/2000/01/rdf-schema#label> "Wiosłowanie"@pl .
+<http://data.archaeology.link/data/maritimethesaurus/1012> <http://www.w3.org/2000/01/rdf-schema#label> "Κωπηλασία και Ταρσοπλοϊα"@gr .
+<http://data.archaeology.link/data/maritimethesaurus/1012> <http://www.w3.org/2000/01/rdf-schema#label> "חתירה ודיווש"@he .
+<http://data.archaeology.link/data/maritimethesaurus/1012> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.archaeology.link/data/maritimethesaurus/cs01> .
+<http://data.archaeology.link/data/maritimethesaurus/1012> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2623> .
+<http://data.archaeology.link/data/maritimethesaurus/1012> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2624> .
+<http://data.archaeology.link/data/maritimethesaurus/1012> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2620> .
+<http://data.archaeology.link/data/maritimethesaurus/1012> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2619> .
+<http://data.archaeology.link/data/maritimethesaurus/1012> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2617> .
+<http://data.archaeology.link/data/maritimethesaurus/1012> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2616> .
+<http://data.archaeology.link/data/maritimethesaurus/1012> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2618> .
+<http://data.archaeology.link/data/maritimethesaurus/1012> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2621> .
+<http://data.archaeology.link/data/maritimethesaurus/1012> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2622> .
+<http://data.archaeology.link/data/maritimethesaurus/1012> <http://www.w3.org/2004/02/skos/core#note> "This is a parent Concept of NAVIS I or NAVIS II."@en .
+<http://data.archaeology.link/data/maritimethesaurus/1012> <http://www.w3.org/2004/02/skos/core#prefLabel> "Roning og padling"@de .
+<http://data.archaeology.link/data/maritimethesaurus/1012> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rowing and paddling"@en .
+<http://data.archaeology.link/data/maritimethesaurus/1012> <http://www.w3.org/2004/02/skos/core#prefLabel> "Roning og padling"@dk .
+<http://data.archaeology.link/data/maritimethesaurus/1012> <http://www.w3.org/2004/02/skos/core#prefLabel> "Roeien en peddelen"@nl .
+<http://data.archaeology.link/data/maritimethesaurus/1012> <http://www.w3.org/2004/02/skos/core#prefLabel> "À ramse et à pagaye"@fr .
+<http://data.archaeology.link/data/maritimethesaurus/1012> <http://www.w3.org/2004/02/skos/core#prefLabel> "Remi e pagaia"@it .
+<http://data.archaeology.link/data/maritimethesaurus/1012> <http://www.w3.org/2004/02/skos/core#prefLabel> "propulsión a remo y a canalete"@es .
+<http://data.archaeology.link/data/maritimethesaurus/1012> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wiosłowanie"@pl .
+<http://data.archaeology.link/data/maritimethesaurus/1012> <http://www.w3.org/2004/02/skos/core#prefLabel> "Κωπηλασία και Ταρσοπλοϊα"@gr .
+<http://data.archaeology.link/data/maritimethesaurus/1012> <http://www.w3.org/2004/02/skos/core#prefLabel> "חתירה ודיווש"@he .
+<http://data.archaeology.link/data/maritimethesaurus/1012> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.archaeology.link/data/maritimethesaurus/cs01> .
+<http://data.archaeology.link/data/maritimethesaurus/1012> <http://www.w3.org/ns/prov#wasAttributedTo> <http://data.archaeology.link/data/maritimethesaurus/ImportPythonScript> .
+<http://data.archaeology.link/data/maritimethesaurus/1012> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.wikidata.org/entity/Q115264680> .
+<http://data.archaeology.link/data/maritimethesaurus/1012> <http://www.w3.org/ns/prov#wasGeneratedBy> <http://data.archaeology.link/data/maritimethesaurus/activity_1012> .
+<http://data.archaeology.link/data/maritimethesaurus/1012> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

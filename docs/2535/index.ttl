@@ -1,0 +1,34 @@
+<http://data.archaeology.link/data/maritimethesaurus/2535> <http://creativecommons.org/ns#attributionName> "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des RGZM" .
+<http://data.archaeology.link/data/maritimethesaurus/2535> <http://creativecommons.org/ns#attributionURL> <http://www.wikidata.org/entity/Q115264627> .
+<http://data.archaeology.link/data/maritimethesaurus/2535> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by-sa/4.0/> .
+<http://data.archaeology.link/data/maritimethesaurus/2535> <http://purl.org/dc/terms/identifier> <http://data.archaeology.link/data/maritimethesaurus/> .
+<http://data.archaeology.link/data/maritimethesaurus/2535> <http://purl.org/dc/terms/issued> "2022-11-18T13:14:49.026434+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://data.archaeology.link/data/maritimethesaurus/2535> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q115264627> .
+<http://data.archaeology.link/data/maritimethesaurus/2535> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://data.archaeology.link/data/maritimethesaurus/2535> <http://www.w3.org/2000/01/rdf-schema#label> "Gang"@de .
+<http://data.archaeology.link/data/maritimethesaurus/2535> <http://www.w3.org/2000/01/rdf-schema#label> "Strake"@en .
+<http://data.archaeology.link/data/maritimethesaurus/2535> <http://www.w3.org/2000/01/rdf-schema#label> "Bordgang"@dk .
+<http://data.archaeology.link/data/maritimethesaurus/2535> <http://www.w3.org/2000/01/rdf-schema#label> "Gang"@nl .
+<http://data.archaeology.link/data/maritimethesaurus/2535> <http://www.w3.org/2000/01/rdf-schema#label> "Virure"@fr .
+<http://data.archaeology.link/data/maritimethesaurus/2535> <http://www.w3.org/2000/01/rdf-schema#label> "Corsodi fasciame"@it .
+<http://data.archaeology.link/data/maritimethesaurus/2535> <http://www.w3.org/2000/01/rdf-schema#label> "traca o hilada"@es .
+<http://data.archaeology.link/data/maritimethesaurus/2535> <http://www.w3.org/2000/01/rdf-schema#label> "Pas poszycia"@pl .
+<http://data.archaeology.link/data/maritimethesaurus/2535> <http://www.w3.org/2000/01/rdf-schema#label> "Μαδέρι"@gr .
+<http://data.archaeology.link/data/maritimethesaurus/2535> <http://www.w3.org/2000/01/rdf-schema#label> "לוח"@he .
+<http://data.archaeology.link/data/maritimethesaurus/2535> <http://www.w3.org/2004/02/skos/core#broader> <http://data.archaeology.link/data/maritimethesaurus/1006> .
+<http://data.archaeology.link/data/maritimethesaurus/2535> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.archaeology.link/data/maritimethesaurus/cs01> .
+<http://data.archaeology.link/data/maritimethesaurus/2535> <http://www.w3.org/2004/02/skos/core#note> "This is a Concept of NAVIS I or NAVIS II."@en .
+<http://data.archaeology.link/data/maritimethesaurus/2535> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gang"@de .
+<http://data.archaeology.link/data/maritimethesaurus/2535> <http://www.w3.org/2004/02/skos/core#prefLabel> "Strake"@en .
+<http://data.archaeology.link/data/maritimethesaurus/2535> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bordgang"@dk .
+<http://data.archaeology.link/data/maritimethesaurus/2535> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gang"@nl .
+<http://data.archaeology.link/data/maritimethesaurus/2535> <http://www.w3.org/2004/02/skos/core#prefLabel> "Virure"@fr .
+<http://data.archaeology.link/data/maritimethesaurus/2535> <http://www.w3.org/2004/02/skos/core#prefLabel> "Corsodi fasciame"@it .
+<http://data.archaeology.link/data/maritimethesaurus/2535> <http://www.w3.org/2004/02/skos/core#prefLabel> "traca o hilada"@es .
+<http://data.archaeology.link/data/maritimethesaurus/2535> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pas poszycia"@pl .
+<http://data.archaeology.link/data/maritimethesaurus/2535> <http://www.w3.org/2004/02/skos/core#prefLabel> "Μαδέρι"@gr .
+<http://data.archaeology.link/data/maritimethesaurus/2535> <http://www.w3.org/2004/02/skos/core#prefLabel> "לוח"@he .
+<http://data.archaeology.link/data/maritimethesaurus/2535> <http://www.w3.org/ns/prov#wasAttributedTo> <http://data.archaeology.link/data/maritimethesaurus/ImportPythonScript> .
+<http://data.archaeology.link/data/maritimethesaurus/2535> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.wikidata.org/entity/Q115264680> .
+<http://data.archaeology.link/data/maritimethesaurus/2535> <http://www.w3.org/ns/prov#wasGeneratedBy> <http://data.archaeology.link/data/maritimethesaurus/activity_2535> .
+<http://data.archaeology.link/data/maritimethesaurus/2535> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

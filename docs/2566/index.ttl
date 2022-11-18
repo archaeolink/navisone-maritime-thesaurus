@@ -1,0 +1,34 @@
+<http://data.archaeology.link/data/maritimethesaurus/2566> <http://creativecommons.org/ns#attributionName> "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des RGZM" .
+<http://data.archaeology.link/data/maritimethesaurus/2566> <http://creativecommons.org/ns#attributionURL> <http://www.wikidata.org/entity/Q115264627> .
+<http://data.archaeology.link/data/maritimethesaurus/2566> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by-sa/4.0/> .
+<http://data.archaeology.link/data/maritimethesaurus/2566> <http://purl.org/dc/terms/identifier> <http://data.archaeology.link/data/maritimethesaurus/> .
+<http://data.archaeology.link/data/maritimethesaurus/2566> <http://purl.org/dc/terms/issued> "2022-11-18T13:14:49.029431+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://data.archaeology.link/data/maritimethesaurus/2566> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q115264627> .
+<http://data.archaeology.link/data/maritimethesaurus/2566> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://data.archaeology.link/data/maritimethesaurus/2566> <http://www.w3.org/2000/01/rdf-schema#label> "Querriegel"@de .
+<http://data.archaeology.link/data/maritimethesaurus/2566> <http://www.w3.org/2000/01/rdf-schema#label> "Transverse Timber"@en .
+<http://data.archaeology.link/data/maritimethesaurus/2566> <http://www.w3.org/2000/01/rdf-schema#label> "Tvårtømmer"@dk .
+<http://data.archaeology.link/data/maritimethesaurus/2566> <http://www.w3.org/2000/01/rdf-schema#label> "Dwarshout"@nl .
+<http://data.archaeology.link/data/maritimethesaurus/2566> <http://www.w3.org/2000/01/rdf-schema#label> "Barrot"@fr .
+<http://data.archaeology.link/data/maritimethesaurus/2566> <http://www.w3.org/2000/01/rdf-schema#label> "Elemento trasversale"@it .
+<http://data.archaeology.link/data/maritimethesaurus/2566> <http://www.w3.org/2000/01/rdf-schema#label> "traversa"@es .
+<http://data.archaeology.link/data/maritimethesaurus/2566> <http://www.w3.org/2000/01/rdf-schema#label> "Belka poprzeczna"@pl .
+<http://data.archaeology.link/data/maritimethesaurus/2566> <http://www.w3.org/2000/01/rdf-schema#label> "Διαμήκης Δοκός"@gr .
+<http://data.archaeology.link/data/maritimethesaurus/2566> <http://www.w3.org/2000/01/rdf-schema#label> "קורת רוחב"@he .
+<http://data.archaeology.link/data/maritimethesaurus/2566> <http://www.w3.org/2004/02/skos/core#broader> <http://data.archaeology.link/data/maritimethesaurus/1007> .
+<http://data.archaeology.link/data/maritimethesaurus/2566> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.archaeology.link/data/maritimethesaurus/cs01> .
+<http://data.archaeology.link/data/maritimethesaurus/2566> <http://www.w3.org/2004/02/skos/core#note> "This is a Concept of NAVIS I or NAVIS II."@en .
+<http://data.archaeology.link/data/maritimethesaurus/2566> <http://www.w3.org/2004/02/skos/core#prefLabel> "Querriegel"@de .
+<http://data.archaeology.link/data/maritimethesaurus/2566> <http://www.w3.org/2004/02/skos/core#prefLabel> "Transverse Timber"@en .
+<http://data.archaeology.link/data/maritimethesaurus/2566> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tvårtømmer"@dk .
+<http://data.archaeology.link/data/maritimethesaurus/2566> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dwarshout"@nl .
+<http://data.archaeology.link/data/maritimethesaurus/2566> <http://www.w3.org/2004/02/skos/core#prefLabel> "Barrot"@fr .
+<http://data.archaeology.link/data/maritimethesaurus/2566> <http://www.w3.org/2004/02/skos/core#prefLabel> "Elemento trasversale"@it .
+<http://data.archaeology.link/data/maritimethesaurus/2566> <http://www.w3.org/2004/02/skos/core#prefLabel> "traversa"@es .
+<http://data.archaeology.link/data/maritimethesaurus/2566> <http://www.w3.org/2004/02/skos/core#prefLabel> "Belka poprzeczna"@pl .
+<http://data.archaeology.link/data/maritimethesaurus/2566> <http://www.w3.org/2004/02/skos/core#prefLabel> "Διαμήκης Δοκός"@gr .
+<http://data.archaeology.link/data/maritimethesaurus/2566> <http://www.w3.org/2004/02/skos/core#prefLabel> "קורת רוחב"@he .
+<http://data.archaeology.link/data/maritimethesaurus/2566> <http://www.w3.org/ns/prov#wasAttributedTo> <http://data.archaeology.link/data/maritimethesaurus/ImportPythonScript> .
+<http://data.archaeology.link/data/maritimethesaurus/2566> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.wikidata.org/entity/Q115264680> .
+<http://data.archaeology.link/data/maritimethesaurus/2566> <http://www.w3.org/ns/prov#wasGeneratedBy> <http://data.archaeology.link/data/maritimethesaurus/activity_2566> .
+<http://data.archaeology.link/data/maritimethesaurus/2566> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

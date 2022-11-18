@@ -1,0 +1,34 @@
+<http://data.archaeology.link/data/maritimethesaurus/2616> <http://creativecommons.org/ns#attributionName> "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des RGZM" .
+<http://data.archaeology.link/data/maritimethesaurus/2616> <http://creativecommons.org/ns#attributionURL> <http://www.wikidata.org/entity/Q115264627> .
+<http://data.archaeology.link/data/maritimethesaurus/2616> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by-sa/4.0/> .
+<http://data.archaeology.link/data/maritimethesaurus/2616> <http://purl.org/dc/terms/identifier> <http://data.archaeology.link/data/maritimethesaurus/> .
+<http://data.archaeology.link/data/maritimethesaurus/2616> <http://purl.org/dc/terms/issued> "2022-11-18T13:14:49.039468+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://data.archaeology.link/data/maritimethesaurus/2616> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q115264627> .
+<http://data.archaeology.link/data/maritimethesaurus/2616> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://data.archaeology.link/data/maritimethesaurus/2616> <http://www.w3.org/2000/01/rdf-schema#label> "Duchtstütze"@de .
+<http://data.archaeology.link/data/maritimethesaurus/2616> <http://www.w3.org/2000/01/rdf-schema#label> "Thwart Stanchion"@en .
+<http://data.archaeology.link/data/maritimethesaurus/2616> <http://www.w3.org/2000/01/rdf-schema#label> "Toftestander"@dk .
+<http://data.archaeology.link/data/maritimethesaurus/2616> <http://www.w3.org/2000/01/rdf-schema#label> "Roeibank-Stut"@nl .
+<http://data.archaeology.link/data/maritimethesaurus/2616> <http://www.w3.org/2000/01/rdf-schema#label> "Montant De Banc De Nage"@fr .
+<http://data.archaeology.link/data/maritimethesaurus/2616> <http://www.w3.org/2000/01/rdf-schema#label> "Puntello del sedile"@it .
+<http://data.archaeology.link/data/maritimethesaurus/2616> <http://www.w3.org/2000/01/rdf-schema#label> "puntal de bancada"@es .
+<http://data.archaeology.link/data/maritimethesaurus/2616> <http://www.w3.org/2000/01/rdf-schema#label> "Podpora ławki"@pl .
+<http://data.archaeology.link/data/maritimethesaurus/2616> <http://www.w3.org/2000/01/rdf-schema#label> "Υπόσελμα"@gr .
+<http://data.archaeology.link/data/maritimethesaurus/2616> <http://www.w3.org/2000/01/rdf-schema#label> "זקף ספסל"@he .
+<http://data.archaeology.link/data/maritimethesaurus/2616> <http://www.w3.org/2004/02/skos/core#broader> <http://data.archaeology.link/data/maritimethesaurus/1012> .
+<http://data.archaeology.link/data/maritimethesaurus/2616> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.archaeology.link/data/maritimethesaurus/cs01> .
+<http://data.archaeology.link/data/maritimethesaurus/2616> <http://www.w3.org/2004/02/skos/core#note> "This is a Concept of NAVIS I or NAVIS II."@en .
+<http://data.archaeology.link/data/maritimethesaurus/2616> <http://www.w3.org/2004/02/skos/core#prefLabel> "Duchtstütze"@de .
+<http://data.archaeology.link/data/maritimethesaurus/2616> <http://www.w3.org/2004/02/skos/core#prefLabel> "Thwart Stanchion"@en .
+<http://data.archaeology.link/data/maritimethesaurus/2616> <http://www.w3.org/2004/02/skos/core#prefLabel> "Toftestander"@dk .
+<http://data.archaeology.link/data/maritimethesaurus/2616> <http://www.w3.org/2004/02/skos/core#prefLabel> "Roeibank-Stut"@nl .
+<http://data.archaeology.link/data/maritimethesaurus/2616> <http://www.w3.org/2004/02/skos/core#prefLabel> "Montant De Banc De Nage"@fr .
+<http://data.archaeology.link/data/maritimethesaurus/2616> <http://www.w3.org/2004/02/skos/core#prefLabel> "Puntello del sedile"@it .
+<http://data.archaeology.link/data/maritimethesaurus/2616> <http://www.w3.org/2004/02/skos/core#prefLabel> "puntal de bancada"@es .
+<http://data.archaeology.link/data/maritimethesaurus/2616> <http://www.w3.org/2004/02/skos/core#prefLabel> "Podpora ławki"@pl .
+<http://data.archaeology.link/data/maritimethesaurus/2616> <http://www.w3.org/2004/02/skos/core#prefLabel> "Υπόσελμα"@gr .
+<http://data.archaeology.link/data/maritimethesaurus/2616> <http://www.w3.org/2004/02/skos/core#prefLabel> "זקף ספסל"@he .
+<http://data.archaeology.link/data/maritimethesaurus/2616> <http://www.w3.org/ns/prov#wasAttributedTo> <http://data.archaeology.link/data/maritimethesaurus/ImportPythonScript> .
+<http://data.archaeology.link/data/maritimethesaurus/2616> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.wikidata.org/entity/Q115264680> .
+<http://data.archaeology.link/data/maritimethesaurus/2616> <http://www.w3.org/ns/prov#wasGeneratedBy> <http://data.archaeology.link/data/maritimethesaurus/activity_2616> .
+<http://data.archaeology.link/data/maritimethesaurus/2616> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

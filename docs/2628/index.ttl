@@ -1,0 +1,34 @@
+<http://data.archaeology.link/data/maritimethesaurus/2628> <http://creativecommons.org/ns#attributionName> "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des RGZM" .
+<http://data.archaeology.link/data/maritimethesaurus/2628> <http://creativecommons.org/ns#attributionURL> <http://www.wikidata.org/entity/Q115264627> .
+<http://data.archaeology.link/data/maritimethesaurus/2628> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by-sa/4.0/> .
+<http://data.archaeology.link/data/maritimethesaurus/2628> <http://purl.org/dc/terms/identifier> <http://data.archaeology.link/data/maritimethesaurus/> .
+<http://data.archaeology.link/data/maritimethesaurus/2628> <http://purl.org/dc/terms/issued> "2022-11-18T13:14:49.040432+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://data.archaeology.link/data/maritimethesaurus/2628> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q115264627> .
+<http://data.archaeology.link/data/maritimethesaurus/2628> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://data.archaeology.link/data/maritimethesaurus/2628> <http://www.w3.org/2000/01/rdf-schema#label> "Winde"@de .
+<http://data.archaeology.link/data/maritimethesaurus/2628> <http://www.w3.org/2000/01/rdf-schema#label> "Winch"@en .
+<http://data.archaeology.link/data/maritimethesaurus/2628> <http://www.w3.org/2000/01/rdf-schema#label> "Vinde"@dk .
+<http://data.archaeology.link/data/maritimethesaurus/2628> <http://www.w3.org/2000/01/rdf-schema#label> "Lier"@nl .
+<http://data.archaeology.link/data/maritimethesaurus/2628> <http://www.w3.org/2000/01/rdf-schema#label> "Treuil"@fr .
+<http://data.archaeology.link/data/maritimethesaurus/2628> <http://www.w3.org/2000/01/rdf-schema#label> "Cabestrano"@it .
+<http://data.archaeology.link/data/maritimethesaurus/2628> <http://www.w3.org/2000/01/rdf-schema#label> "cabestrante o molinete"@es .
+<http://data.archaeology.link/data/maritimethesaurus/2628> <http://www.w3.org/2000/01/rdf-schema#label> "Wciągarka"@pl .
+<http://data.archaeology.link/data/maritimethesaurus/2628> <http://www.w3.org/2000/01/rdf-schema#label> "Εργάτης"@gr .
+<http://data.archaeology.link/data/maritimethesaurus/2628> <http://www.w3.org/2000/01/rdf-schema#label> "כנן; מנוף"@he .
+<http://data.archaeology.link/data/maritimethesaurus/2628> <http://www.w3.org/2004/02/skos/core#broader> <http://data.archaeology.link/data/maritimethesaurus/1014> .
+<http://data.archaeology.link/data/maritimethesaurus/2628> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.archaeology.link/data/maritimethesaurus/cs01> .
+<http://data.archaeology.link/data/maritimethesaurus/2628> <http://www.w3.org/2004/02/skos/core#note> "This is a Concept of NAVIS I or NAVIS II."@en .
+<http://data.archaeology.link/data/maritimethesaurus/2628> <http://www.w3.org/2004/02/skos/core#prefLabel> "Winde"@de .
+<http://data.archaeology.link/data/maritimethesaurus/2628> <http://www.w3.org/2004/02/skos/core#prefLabel> "Winch"@en .
+<http://data.archaeology.link/data/maritimethesaurus/2628> <http://www.w3.org/2004/02/skos/core#prefLabel> "Vinde"@dk .
+<http://data.archaeology.link/data/maritimethesaurus/2628> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lier"@nl .
+<http://data.archaeology.link/data/maritimethesaurus/2628> <http://www.w3.org/2004/02/skos/core#prefLabel> "Treuil"@fr .
+<http://data.archaeology.link/data/maritimethesaurus/2628> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cabestrano"@it .
+<http://data.archaeology.link/data/maritimethesaurus/2628> <http://www.w3.org/2004/02/skos/core#prefLabel> "cabestrante o molinete"@es .
+<http://data.archaeology.link/data/maritimethesaurus/2628> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wciągarka"@pl .
+<http://data.archaeology.link/data/maritimethesaurus/2628> <http://www.w3.org/2004/02/skos/core#prefLabel> "Εργάτης"@gr .
+<http://data.archaeology.link/data/maritimethesaurus/2628> <http://www.w3.org/2004/02/skos/core#prefLabel> "כנן; מנוף"@he .
+<http://data.archaeology.link/data/maritimethesaurus/2628> <http://www.w3.org/ns/prov#wasAttributedTo> <http://data.archaeology.link/data/maritimethesaurus/ImportPythonScript> .
+<http://data.archaeology.link/data/maritimethesaurus/2628> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.wikidata.org/entity/Q115264680> .
+<http://data.archaeology.link/data/maritimethesaurus/2628> <http://www.w3.org/ns/prov#wasGeneratedBy> <http://data.archaeology.link/data/maritimethesaurus/activity_2628> .
+<http://data.archaeology.link/data/maritimethesaurus/2628> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

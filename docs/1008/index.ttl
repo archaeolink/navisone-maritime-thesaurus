@@ -1,0 +1,39 @@
+<http://data.archaeology.link/data/maritimethesaurus/1008> <http://creativecommons.org/ns#attributionName> "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des RGZM" .
+<http://data.archaeology.link/data/maritimethesaurus/1008> <http://creativecommons.org/ns#attributionURL> <http://www.wikidata.org/entity/Q115264627> .
+<http://data.archaeology.link/data/maritimethesaurus/1008> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by-sa/4.0/> .
+<http://data.archaeology.link/data/maritimethesaurus/1008> <http://purl.org/dc/terms/identifier> <http://data.archaeology.link/data/maritimethesaurus/> .
+<http://data.archaeology.link/data/maritimethesaurus/1008> <http://purl.org/dc/terms/issued> "2022-11-18T13:14:49.001532+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://data.archaeology.link/data/maritimethesaurus/1008> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q115264627> .
+<http://data.archaeology.link/data/maritimethesaurus/1008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://data.archaeology.link/data/maritimethesaurus/1008> <http://www.w3.org/2000/01/rdf-schema#label> "Dæk og klædning"@de .
+<http://data.archaeology.link/data/maritimethesaurus/1008> <http://www.w3.org/2000/01/rdf-schema#label> "Decks and Ceilings"@en .
+<http://data.archaeology.link/data/maritimethesaurus/1008> <http://www.w3.org/2000/01/rdf-schema#label> "Dæk og klædning"@dk .
+<http://data.archaeology.link/data/maritimethesaurus/1008> <http://www.w3.org/2000/01/rdf-schema#label> "Dekken"@nl .
+<http://data.archaeology.link/data/maritimethesaurus/1008> <http://www.w3.org/2000/01/rdf-schema#label> "Pontage"@fr .
+<http://data.archaeology.link/data/maritimethesaurus/1008> <http://www.w3.org/2000/01/rdf-schema#label> "Ponti"@it .
+<http://data.archaeology.link/data/maritimethesaurus/1008> <http://www.w3.org/2000/01/rdf-schema#label> "cubierta / guarnición"@es .
+<http://data.archaeology.link/data/maritimethesaurus/1008> <http://www.w3.org/2000/01/rdf-schema#label> "Pokłady i szalunki"@pl .
+<http://data.archaeology.link/data/maritimethesaurus/1008> <http://www.w3.org/2000/01/rdf-schema#label> "Κατάστρωμα και Φόδρο (Εντερώνεια)"@gr .
+<http://data.archaeology.link/data/maritimethesaurus/1008> <http://www.w3.org/2000/01/rdf-schema#label> "סיפון וריצפה"@he .
+<http://data.archaeology.link/data/maritimethesaurus/1008> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.archaeology.link/data/maritimethesaurus/cs01> .
+<http://data.archaeology.link/data/maritimethesaurus/1008> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2568> .
+<http://data.archaeology.link/data/maritimethesaurus/1008> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2569> .
+<http://data.archaeology.link/data/maritimethesaurus/1008> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2570> .
+<http://data.archaeology.link/data/maritimethesaurus/1008> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2571> .
+<http://data.archaeology.link/data/maritimethesaurus/1008> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2572> .
+<http://data.archaeology.link/data/maritimethesaurus/1008> <http://www.w3.org/2004/02/skos/core#note> "This is a parent Concept of NAVIS I or NAVIS II."@en .
+<http://data.archaeology.link/data/maritimethesaurus/1008> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dæk og klædning"@de .
+<http://data.archaeology.link/data/maritimethesaurus/1008> <http://www.w3.org/2004/02/skos/core#prefLabel> "Decks and Ceilings"@en .
+<http://data.archaeology.link/data/maritimethesaurus/1008> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dæk og klædning"@dk .
+<http://data.archaeology.link/data/maritimethesaurus/1008> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dekken"@nl .
+<http://data.archaeology.link/data/maritimethesaurus/1008> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pontage"@fr .
+<http://data.archaeology.link/data/maritimethesaurus/1008> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ponti"@it .
+<http://data.archaeology.link/data/maritimethesaurus/1008> <http://www.w3.org/2004/02/skos/core#prefLabel> "cubierta / guarnición"@es .
+<http://data.archaeology.link/data/maritimethesaurus/1008> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pokłady i szalunki"@pl .
+<http://data.archaeology.link/data/maritimethesaurus/1008> <http://www.w3.org/2004/02/skos/core#prefLabel> "Κατάστρωμα και Φόδρο (Εντερώνεια)"@gr .
+<http://data.archaeology.link/data/maritimethesaurus/1008> <http://www.w3.org/2004/02/skos/core#prefLabel> "סיפון וריצפה"@he .
+<http://data.archaeology.link/data/maritimethesaurus/1008> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.archaeology.link/data/maritimethesaurus/cs01> .
+<http://data.archaeology.link/data/maritimethesaurus/1008> <http://www.w3.org/ns/prov#wasAttributedTo> <http://data.archaeology.link/data/maritimethesaurus/ImportPythonScript> .
+<http://data.archaeology.link/data/maritimethesaurus/1008> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.wikidata.org/entity/Q115264680> .
+<http://data.archaeology.link/data/maritimethesaurus/1008> <http://www.w3.org/ns/prov#wasGeneratedBy> <http://data.archaeology.link/data/maritimethesaurus/activity_1008> .
+<http://data.archaeology.link/data/maritimethesaurus/1008> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

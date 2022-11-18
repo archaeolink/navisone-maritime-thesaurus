@@ -1,0 +1,34 @@
+<http://data.archaeology.link/data/maritimethesaurus/2497> <http://creativecommons.org/ns#attributionName> "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des RGZM" .
+<http://data.archaeology.link/data/maritimethesaurus/2497> <http://creativecommons.org/ns#attributionURL> <http://www.wikidata.org/entity/Q115264627> .
+<http://data.archaeology.link/data/maritimethesaurus/2497> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by-sa/4.0/> .
+<http://data.archaeology.link/data/maritimethesaurus/2497> <http://purl.org/dc/terms/identifier> <http://data.archaeology.link/data/maritimethesaurus/> .
+<http://data.archaeology.link/data/maritimethesaurus/2497> <http://purl.org/dc/terms/issued> "2022-11-18T13:14:49.021433+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://data.archaeology.link/data/maritimethesaurus/2497> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q115264627> .
+<http://data.archaeology.link/data/maritimethesaurus/2497> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://data.archaeology.link/data/maritimethesaurus/2497> <http://www.w3.org/2000/01/rdf-schema#label> "Gerudert"@de .
+<http://data.archaeology.link/data/maritimethesaurus/2497> <http://www.w3.org/2000/01/rdf-schema#label> "Oared"@en .
+<http://data.archaeology.link/data/maritimethesaurus/2497> <http://www.w3.org/2000/01/rdf-schema#label> "Roet"@dk .
+<http://data.archaeology.link/data/maritimethesaurus/2497> <http://www.w3.org/2000/01/rdf-schema#label> "Geroeid"@nl .
+<http://data.archaeology.link/data/maritimethesaurus/2497> <http://www.w3.org/2000/01/rdf-schema#label> "À rames"@fr .
+<http://data.archaeology.link/data/maritimethesaurus/2497> <http://www.w3.org/2000/01/rdf-schema#label> "A remi"@it .
+<http://data.archaeology.link/data/maritimethesaurus/2497> <http://www.w3.org/2000/01/rdf-schema#label> "a remo"@es .
+<http://data.archaeology.link/data/maritimethesaurus/2497> <http://www.w3.org/2000/01/rdf-schema#label> "Wiosłowy"@pl .
+<http://data.archaeology.link/data/maritimethesaurus/2497> <http://www.w3.org/2000/01/rdf-schema#label> "Κωπήλατο"@gr .
+<http://data.archaeology.link/data/maritimethesaurus/2497> <http://www.w3.org/2000/01/rdf-schema#label> "חתור"@he .
+<http://data.archaeology.link/data/maritimethesaurus/2497> <http://www.w3.org/2004/02/skos/core#broader> <http://data.archaeology.link/data/maritimethesaurus/1003> .
+<http://data.archaeology.link/data/maritimethesaurus/2497> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.archaeology.link/data/maritimethesaurus/cs01> .
+<http://data.archaeology.link/data/maritimethesaurus/2497> <http://www.w3.org/2004/02/skos/core#note> "This is a Concept of NAVIS I or NAVIS II."@en .
+<http://data.archaeology.link/data/maritimethesaurus/2497> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gerudert"@de .
+<http://data.archaeology.link/data/maritimethesaurus/2497> <http://www.w3.org/2004/02/skos/core#prefLabel> "Oared"@en .
+<http://data.archaeology.link/data/maritimethesaurus/2497> <http://www.w3.org/2004/02/skos/core#prefLabel> "Roet"@dk .
+<http://data.archaeology.link/data/maritimethesaurus/2497> <http://www.w3.org/2004/02/skos/core#prefLabel> "Geroeid"@nl .
+<http://data.archaeology.link/data/maritimethesaurus/2497> <http://www.w3.org/2004/02/skos/core#prefLabel> "À rames"@fr .
+<http://data.archaeology.link/data/maritimethesaurus/2497> <http://www.w3.org/2004/02/skos/core#prefLabel> "A remi"@it .
+<http://data.archaeology.link/data/maritimethesaurus/2497> <http://www.w3.org/2004/02/skos/core#prefLabel> "a remo"@es .
+<http://data.archaeology.link/data/maritimethesaurus/2497> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wiosłowy"@pl .
+<http://data.archaeology.link/data/maritimethesaurus/2497> <http://www.w3.org/2004/02/skos/core#prefLabel> "Κωπήλατο"@gr .
+<http://data.archaeology.link/data/maritimethesaurus/2497> <http://www.w3.org/2004/02/skos/core#prefLabel> "חתור"@he .
+<http://data.archaeology.link/data/maritimethesaurus/2497> <http://www.w3.org/ns/prov#wasAttributedTo> <http://data.archaeology.link/data/maritimethesaurus/ImportPythonScript> .
+<http://data.archaeology.link/data/maritimethesaurus/2497> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.wikidata.org/entity/Q115264680> .
+<http://data.archaeology.link/data/maritimethesaurus/2497> <http://www.w3.org/ns/prov#wasGeneratedBy> <http://data.archaeology.link/data/maritimethesaurus/activity_2497> .
+<http://data.archaeology.link/data/maritimethesaurus/2497> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

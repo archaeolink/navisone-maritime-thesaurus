@@ -1,0 +1,34 @@
+<http://data.archaeology.link/data/maritimethesaurus/2545> <http://creativecommons.org/ns#attributionName> "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des RGZM" .
+<http://data.archaeology.link/data/maritimethesaurus/2545> <http://creativecommons.org/ns#attributionURL> <http://www.wikidata.org/entity/Q115264627> .
+<http://data.archaeology.link/data/maritimethesaurus/2545> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by-sa/4.0/> .
+<http://data.archaeology.link/data/maritimethesaurus/2545> <http://purl.org/dc/terms/identifier> <http://data.archaeology.link/data/maritimethesaurus/> .
+<http://data.archaeology.link/data/maritimethesaurus/2545> <http://purl.org/dc/terms/issued> "2022-11-18T13:14:49.017498+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://data.archaeology.link/data/maritimethesaurus/2545> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q115264627> .
+<http://data.archaeology.link/data/maritimethesaurus/2545> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://data.archaeology.link/data/maritimethesaurus/2545> <http://www.w3.org/2000/01/rdf-schema#label> "Beplankung"@de .
+<http://data.archaeology.link/data/maritimethesaurus/2545> <http://www.w3.org/2000/01/rdf-schema#label> "Planking"@en .
+<http://data.archaeology.link/data/maritimethesaurus/2545> <http://www.w3.org/2000/01/rdf-schema#label> "Bordlægning"@dk .
+<http://data.archaeology.link/data/maritimethesaurus/2545> <http://www.w3.org/2000/01/rdf-schema#label> "Beplanking"@nl .
+<http://data.archaeology.link/data/maritimethesaurus/2545> <http://www.w3.org/2000/01/rdf-schema#label> "Bordé"@fr .
+<http://data.archaeology.link/data/maritimethesaurus/2545> <http://www.w3.org/2000/01/rdf-schema#label> "Fasciame"@it .
+<http://data.archaeology.link/data/maritimethesaurus/2545> <http://www.w3.org/2000/01/rdf-schema#label> "tablón"@es .
+<http://data.archaeology.link/data/maritimethesaurus/2545> <http://www.w3.org/2000/01/rdf-schema#label> "Poszycie"@pl .
+<http://data.archaeology.link/data/maritimethesaurus/2545> <http://www.w3.org/2000/01/rdf-schema#label> "Πέτσωμα"@gr .
+<http://data.archaeology.link/data/maritimethesaurus/2545> <http://www.w3.org/2000/01/rdf-schema#label> "ליווח; דיפון"@he .
+<http://data.archaeology.link/data/maritimethesaurus/2545> <http://www.w3.org/2004/02/skos/core#broader> <http://data.archaeology.link/data/maritimethesaurus/1006> .
+<http://data.archaeology.link/data/maritimethesaurus/2545> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.archaeology.link/data/maritimethesaurus/cs01> .
+<http://data.archaeology.link/data/maritimethesaurus/2545> <http://www.w3.org/2004/02/skos/core#note> "This is a Concept of NAVIS I or NAVIS II."@en .
+<http://data.archaeology.link/data/maritimethesaurus/2545> <http://www.w3.org/2004/02/skos/core#prefLabel> "Beplankung"@de .
+<http://data.archaeology.link/data/maritimethesaurus/2545> <http://www.w3.org/2004/02/skos/core#prefLabel> "Planking"@en .
+<http://data.archaeology.link/data/maritimethesaurus/2545> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bordlægning"@dk .
+<http://data.archaeology.link/data/maritimethesaurus/2545> <http://www.w3.org/2004/02/skos/core#prefLabel> "Beplanking"@nl .
+<http://data.archaeology.link/data/maritimethesaurus/2545> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bordé"@fr .
+<http://data.archaeology.link/data/maritimethesaurus/2545> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fasciame"@it .
+<http://data.archaeology.link/data/maritimethesaurus/2545> <http://www.w3.org/2004/02/skos/core#prefLabel> "tablón"@es .
+<http://data.archaeology.link/data/maritimethesaurus/2545> <http://www.w3.org/2004/02/skos/core#prefLabel> "Poszycie"@pl .
+<http://data.archaeology.link/data/maritimethesaurus/2545> <http://www.w3.org/2004/02/skos/core#prefLabel> "Πέτσωμα"@gr .
+<http://data.archaeology.link/data/maritimethesaurus/2545> <http://www.w3.org/2004/02/skos/core#prefLabel> "ליווח; דיפון"@he .
+<http://data.archaeology.link/data/maritimethesaurus/2545> <http://www.w3.org/ns/prov#wasAttributedTo> <http://data.archaeology.link/data/maritimethesaurus/ImportPythonScript> .
+<http://data.archaeology.link/data/maritimethesaurus/2545> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.wikidata.org/entity/Q115264680> .
+<http://data.archaeology.link/data/maritimethesaurus/2545> <http://www.w3.org/ns/prov#wasGeneratedBy> <http://data.archaeology.link/data/maritimethesaurus/activity_2545> .
+<http://data.archaeology.link/data/maritimethesaurus/2545> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

@@ -1,0 +1,34 @@
+<http://data.archaeology.link/data/maritimethesaurus/2540> <http://creativecommons.org/ns#attributionName> "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des RGZM" .
+<http://data.archaeology.link/data/maritimethesaurus/2540> <http://creativecommons.org/ns#attributionURL> <http://www.wikidata.org/entity/Q115264627> .
+<http://data.archaeology.link/data/maritimethesaurus/2540> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by-sa/4.0/> .
+<http://data.archaeology.link/data/maritimethesaurus/2540> <http://purl.org/dc/terms/identifier> <http://data.archaeology.link/data/maritimethesaurus/> .
+<http://data.archaeology.link/data/maritimethesaurus/2540> <http://purl.org/dc/terms/issued> "2022-11-18T13:14:49.029431+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://data.archaeology.link/data/maritimethesaurus/2540> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q115264627> .
+<http://data.archaeology.link/data/maritimethesaurus/2540> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://data.archaeology.link/data/maritimethesaurus/2540> <http://www.w3.org/2000/01/rdf-schema#label> "Mittelsteven"@de .
+<http://data.archaeology.link/data/maritimethesaurus/2540> <http://www.w3.org/2000/01/rdf-schema#label> "Middle Stempost"@en .
+<http://data.archaeology.link/data/maritimethesaurus/2540> <http://www.w3.org/2000/01/rdf-schema#label> "Midterstævn"@dk .
+<http://data.archaeology.link/data/maritimethesaurus/2540> <http://www.w3.org/2000/01/rdf-schema#label> "Middensteven"@nl .
+<http://data.archaeology.link/data/maritimethesaurus/2540> <http://www.w3.org/2000/01/rdf-schema#label> "Proue Centrale"@fr .
+<http://data.archaeology.link/data/maritimethesaurus/2540> <http://www.w3.org/2000/01/rdf-schema#label> "Ruota di prua di mezzo"@it .
+<http://data.archaeology.link/data/maritimethesaurus/2540> <http://www.w3.org/2000/01/rdf-schema#label> "roda central"@es .
+<http://data.archaeology.link/data/maritimethesaurus/2540> <http://www.w3.org/2000/01/rdf-schema#label> "Stewa środkowa"@pl .
+<http://data.archaeology.link/data/maritimethesaurus/2540> <http://www.w3.org/2000/01/rdf-schema#label> "Μέγιστος Νομεύς, Μάστορης"@gr .
+<http://data.archaeology.link/data/maritimethesaurus/2540> <http://www.w3.org/2000/01/rdf-schema#label> "קורה המרכזית של החרטום"@he .
+<http://data.archaeology.link/data/maritimethesaurus/2540> <http://www.w3.org/2004/02/skos/core#broader> <http://data.archaeology.link/data/maritimethesaurus/1006> .
+<http://data.archaeology.link/data/maritimethesaurus/2540> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.archaeology.link/data/maritimethesaurus/cs01> .
+<http://data.archaeology.link/data/maritimethesaurus/2540> <http://www.w3.org/2004/02/skos/core#note> "This is a Concept of NAVIS I or NAVIS II."@en .
+<http://data.archaeology.link/data/maritimethesaurus/2540> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mittelsteven"@de .
+<http://data.archaeology.link/data/maritimethesaurus/2540> <http://www.w3.org/2004/02/skos/core#prefLabel> "Middle Stempost"@en .
+<http://data.archaeology.link/data/maritimethesaurus/2540> <http://www.w3.org/2004/02/skos/core#prefLabel> "Midterstævn"@dk .
+<http://data.archaeology.link/data/maritimethesaurus/2540> <http://www.w3.org/2004/02/skos/core#prefLabel> "Middensteven"@nl .
+<http://data.archaeology.link/data/maritimethesaurus/2540> <http://www.w3.org/2004/02/skos/core#prefLabel> "Proue Centrale"@fr .
+<http://data.archaeology.link/data/maritimethesaurus/2540> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ruota di prua di mezzo"@it .
+<http://data.archaeology.link/data/maritimethesaurus/2540> <http://www.w3.org/2004/02/skos/core#prefLabel> "roda central"@es .
+<http://data.archaeology.link/data/maritimethesaurus/2540> <http://www.w3.org/2004/02/skos/core#prefLabel> "Stewa środkowa"@pl .
+<http://data.archaeology.link/data/maritimethesaurus/2540> <http://www.w3.org/2004/02/skos/core#prefLabel> "Μέγιστος Νομεύς, Μάστορης"@gr .
+<http://data.archaeology.link/data/maritimethesaurus/2540> <http://www.w3.org/2004/02/skos/core#prefLabel> "קורה המרכזית של החרטום"@he .
+<http://data.archaeology.link/data/maritimethesaurus/2540> <http://www.w3.org/ns/prov#wasAttributedTo> <http://data.archaeology.link/data/maritimethesaurus/ImportPythonScript> .
+<http://data.archaeology.link/data/maritimethesaurus/2540> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.wikidata.org/entity/Q115264680> .
+<http://data.archaeology.link/data/maritimethesaurus/2540> <http://www.w3.org/ns/prov#wasGeneratedBy> <http://data.archaeology.link/data/maritimethesaurus/activity_2540> .
+<http://data.archaeology.link/data/maritimethesaurus/2540> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

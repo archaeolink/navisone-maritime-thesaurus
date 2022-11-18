@@ -1,0 +1,37 @@
+<http://data.archaeology.link/data/maritimethesaurus/1016> <http://creativecommons.org/ns#attributionName> "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des RGZM" .
+<http://data.archaeology.link/data/maritimethesaurus/1016> <http://creativecommons.org/ns#attributionURL> <http://www.wikidata.org/entity/Q115264627> .
+<http://data.archaeology.link/data/maritimethesaurus/1016> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by-sa/4.0/> .
+<http://data.archaeology.link/data/maritimethesaurus/1016> <http://purl.org/dc/terms/identifier> <http://data.archaeology.link/data/maritimethesaurus/> .
+<http://data.archaeology.link/data/maritimethesaurus/1016> <http://purl.org/dc/terms/issued> "2022-11-18T13:14:49.003510+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://data.archaeology.link/data/maritimethesaurus/1016> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q115264627> .
+<http://data.archaeology.link/data/maritimethesaurus/1016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://data.archaeology.link/data/maritimethesaurus/1016> <http://www.w3.org/2000/01/rdf-schema#label> "Overfladebehandling"@de .
+<http://data.archaeology.link/data/maritimethesaurus/1016> <http://www.w3.org/2000/01/rdf-schema#label> "Surface treatment"@en .
+<http://data.archaeology.link/data/maritimethesaurus/1016> <http://www.w3.org/2000/01/rdf-schema#label> "Overfladebehandling"@dk .
+<http://data.archaeology.link/data/maritimethesaurus/1016> <http://www.w3.org/2000/01/rdf-schema#label> "Oppervlaktebehandeling"@nl .
+<http://data.archaeology.link/data/maritimethesaurus/1016> <http://www.w3.org/2000/01/rdf-schema#label> "Traitement de surface"@fr .
+<http://data.archaeology.link/data/maritimethesaurus/1016> <http://www.w3.org/2000/01/rdf-schema#label> "Trattamento esterno"@it .
+<http://data.archaeology.link/data/maritimethesaurus/1016> <http://www.w3.org/2000/01/rdf-schema#label> "acabado de superficie"@es .
+<http://data.archaeology.link/data/maritimethesaurus/1016> <http://www.w3.org/2000/01/rdf-schema#label> "Pokrycie powierzchni"@pl .
+<http://data.archaeology.link/data/maritimethesaurus/1016> <http://www.w3.org/2000/01/rdf-schema#label> "Συντήρηση εξωτερικής επιφάνειας"@gr .
+<http://data.archaeology.link/data/maritimethesaurus/1016> <http://www.w3.org/2000/01/rdf-schema#label> "משטח מטופל"@he .
+<http://data.archaeology.link/data/maritimethesaurus/1016> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.archaeology.link/data/maritimethesaurus/cs01> .
+<http://data.archaeology.link/data/maritimethesaurus/1016> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2638> .
+<http://data.archaeology.link/data/maritimethesaurus/1016> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2640> .
+<http://data.archaeology.link/data/maritimethesaurus/1016> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2639> .
+<http://data.archaeology.link/data/maritimethesaurus/1016> <http://www.w3.org/2004/02/skos/core#note> "This is a parent Concept of NAVIS I or NAVIS II."@en .
+<http://data.archaeology.link/data/maritimethesaurus/1016> <http://www.w3.org/2004/02/skos/core#prefLabel> "Overfladebehandling"@de .
+<http://data.archaeology.link/data/maritimethesaurus/1016> <http://www.w3.org/2004/02/skos/core#prefLabel> "Surface treatment"@en .
+<http://data.archaeology.link/data/maritimethesaurus/1016> <http://www.w3.org/2004/02/skos/core#prefLabel> "Overfladebehandling"@dk .
+<http://data.archaeology.link/data/maritimethesaurus/1016> <http://www.w3.org/2004/02/skos/core#prefLabel> "Oppervlaktebehandeling"@nl .
+<http://data.archaeology.link/data/maritimethesaurus/1016> <http://www.w3.org/2004/02/skos/core#prefLabel> "Traitement de surface"@fr .
+<http://data.archaeology.link/data/maritimethesaurus/1016> <http://www.w3.org/2004/02/skos/core#prefLabel> "Trattamento esterno"@it .
+<http://data.archaeology.link/data/maritimethesaurus/1016> <http://www.w3.org/2004/02/skos/core#prefLabel> "acabado de superficie"@es .
+<http://data.archaeology.link/data/maritimethesaurus/1016> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pokrycie powierzchni"@pl .
+<http://data.archaeology.link/data/maritimethesaurus/1016> <http://www.w3.org/2004/02/skos/core#prefLabel> "Συντήρηση εξωτερικής επιφάνειας"@gr .
+<http://data.archaeology.link/data/maritimethesaurus/1016> <http://www.w3.org/2004/02/skos/core#prefLabel> "משטח מטופל"@he .
+<http://data.archaeology.link/data/maritimethesaurus/1016> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.archaeology.link/data/maritimethesaurus/cs01> .
+<http://data.archaeology.link/data/maritimethesaurus/1016> <http://www.w3.org/ns/prov#wasAttributedTo> <http://data.archaeology.link/data/maritimethesaurus/ImportPythonScript> .
+<http://data.archaeology.link/data/maritimethesaurus/1016> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.wikidata.org/entity/Q115264680> .
+<http://data.archaeology.link/data/maritimethesaurus/1016> <http://www.w3.org/ns/prov#wasGeneratedBy> <http://data.archaeology.link/data/maritimethesaurus/activity_1016> .
+<http://data.archaeology.link/data/maritimethesaurus/1016> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

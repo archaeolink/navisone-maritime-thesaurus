@@ -1,0 +1,34 @@
+<http://data.archaeology.link/data/maritimethesaurus/2544> <http://creativecommons.org/ns#attributionName> "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des RGZM" .
+<http://data.archaeology.link/data/maritimethesaurus/2544> <http://creativecommons.org/ns#attributionURL> <http://www.wikidata.org/entity/Q115264627> .
+<http://data.archaeology.link/data/maritimethesaurus/2544> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by-sa/4.0/> .
+<http://data.archaeology.link/data/maritimethesaurus/2544> <http://purl.org/dc/terms/identifier> <http://data.archaeology.link/data/maritimethesaurus/> .
+<http://data.archaeology.link/data/maritimethesaurus/2544> <http://purl.org/dc/terms/issued> "2022-11-18T13:14:49.030430+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://data.archaeology.link/data/maritimethesaurus/2544> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q115264627> .
+<http://data.archaeology.link/data/maritimethesaurus/2544> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://data.archaeology.link/data/maritimethesaurus/2544> <http://www.w3.org/2000/01/rdf-schema#label> "Bodenplanke"@de .
+<http://data.archaeology.link/data/maritimethesaurus/2544> <http://www.w3.org/2000/01/rdf-schema#label> "Bottom Plank"@en .
+<http://data.archaeology.link/data/maritimethesaurus/2544> <http://www.w3.org/2000/01/rdf-schema#label> "Bundplanke"@dk .
+<http://data.archaeology.link/data/maritimethesaurus/2544> <http://www.w3.org/2000/01/rdf-schema#label> "Vlakplank"@nl .
+<http://data.archaeology.link/data/maritimethesaurus/2544> <http://www.w3.org/2000/01/rdf-schema#label> "Bordage De Caràne"@fr .
+<http://data.archaeology.link/data/maritimethesaurus/2544> <http://www.w3.org/2000/01/rdf-schema#label> "Tavola del fondo"@it .
+<http://data.archaeology.link/data/maritimethesaurus/2544> <http://www.w3.org/2000/01/rdf-schema#label> "tablazón de la carena"@es .
+<http://data.archaeology.link/data/maritimethesaurus/2544> <http://www.w3.org/2000/01/rdf-schema#label> "Klepka denna"@pl .
+<http://data.archaeology.link/data/maritimethesaurus/2544> <http://www.w3.org/2000/01/rdf-schema#label> "Σανίδα του Πυθμένα"@gr .
+<http://data.archaeology.link/data/maritimethesaurus/2544> <http://www.w3.org/2000/01/rdf-schema#label> "לוח תחתית"@he .
+<http://data.archaeology.link/data/maritimethesaurus/2544> <http://www.w3.org/2004/02/skos/core#broader> <http://data.archaeology.link/data/maritimethesaurus/1006> .
+<http://data.archaeology.link/data/maritimethesaurus/2544> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.archaeology.link/data/maritimethesaurus/cs01> .
+<http://data.archaeology.link/data/maritimethesaurus/2544> <http://www.w3.org/2004/02/skos/core#note> "This is a Concept of NAVIS I or NAVIS II."@en .
+<http://data.archaeology.link/data/maritimethesaurus/2544> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bodenplanke"@de .
+<http://data.archaeology.link/data/maritimethesaurus/2544> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bottom Plank"@en .
+<http://data.archaeology.link/data/maritimethesaurus/2544> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bundplanke"@dk .
+<http://data.archaeology.link/data/maritimethesaurus/2544> <http://www.w3.org/2004/02/skos/core#prefLabel> "Vlakplank"@nl .
+<http://data.archaeology.link/data/maritimethesaurus/2544> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bordage De Caràne"@fr .
+<http://data.archaeology.link/data/maritimethesaurus/2544> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tavola del fondo"@it .
+<http://data.archaeology.link/data/maritimethesaurus/2544> <http://www.w3.org/2004/02/skos/core#prefLabel> "tablazón de la carena"@es .
+<http://data.archaeology.link/data/maritimethesaurus/2544> <http://www.w3.org/2004/02/skos/core#prefLabel> "Klepka denna"@pl .
+<http://data.archaeology.link/data/maritimethesaurus/2544> <http://www.w3.org/2004/02/skos/core#prefLabel> "Σανίδα του Πυθμένα"@gr .
+<http://data.archaeology.link/data/maritimethesaurus/2544> <http://www.w3.org/2004/02/skos/core#prefLabel> "לוח תחתית"@he .
+<http://data.archaeology.link/data/maritimethesaurus/2544> <http://www.w3.org/ns/prov#wasAttributedTo> <http://data.archaeology.link/data/maritimethesaurus/ImportPythonScript> .
+<http://data.archaeology.link/data/maritimethesaurus/2544> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.wikidata.org/entity/Q115264680> .
+<http://data.archaeology.link/data/maritimethesaurus/2544> <http://www.w3.org/ns/prov#wasGeneratedBy> <http://data.archaeology.link/data/maritimethesaurus/activity_2544> .
+<http://data.archaeology.link/data/maritimethesaurus/2544> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

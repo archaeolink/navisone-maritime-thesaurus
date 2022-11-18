@@ -1,0 +1,34 @@
+<http://data.archaeology.link/data/maritimethesaurus/2529> <http://creativecommons.org/ns#attributionName> "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des RGZM" .
+<http://data.archaeology.link/data/maritimethesaurus/2529> <http://creativecommons.org/ns#attributionURL> <http://www.wikidata.org/entity/Q115264627> .
+<http://data.archaeology.link/data/maritimethesaurus/2529> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by-sa/4.0/> .
+<http://data.archaeology.link/data/maritimethesaurus/2529> <http://purl.org/dc/terms/identifier> <http://data.archaeology.link/data/maritimethesaurus/> .
+<http://data.archaeology.link/data/maritimethesaurus/2529> <http://purl.org/dc/terms/issued> "2022-11-18T13:14:49.015491+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://data.archaeology.link/data/maritimethesaurus/2529> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q115264627> .
+<http://data.archaeology.link/data/maritimethesaurus/2529> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://data.archaeology.link/data/maritimethesaurus/2529> <http://www.w3.org/2000/01/rdf-schema#label> "Kielplanke"@de .
+<http://data.archaeology.link/data/maritimethesaurus/2529> <http://www.w3.org/2000/01/rdf-schema#label> "Keel-Plank"@en .
+<http://data.archaeology.link/data/maritimethesaurus/2529> <http://www.w3.org/2000/01/rdf-schema#label> "Kølplanke"@dk .
+<http://data.archaeology.link/data/maritimethesaurus/2529> <http://www.w3.org/2000/01/rdf-schema#label> "Kielplank"@nl .
+<http://data.archaeology.link/data/maritimethesaurus/2529> <http://www.w3.org/2000/01/rdf-schema#label> "Bordage de Quille"@fr .
+<http://data.archaeology.link/data/maritimethesaurus/2529> <http://www.w3.org/2000/01/rdf-schema#label> "Tavola di chiglia"@it .
+<http://data.archaeology.link/data/maritimethesaurus/2529> <http://www.w3.org/2000/01/rdf-schema#label> "tablón de aparadura"@es .
+<http://data.archaeology.link/data/maritimethesaurus/2529> <http://www.w3.org/2000/01/rdf-schema#label> "Klepka stępkowa"@pl .
+<http://data.archaeology.link/data/maritimethesaurus/2529> <http://www.w3.org/2000/01/rdf-schema#label> "Μαδέρι δίπλα στην Καρένα"@gr .
+<http://data.archaeology.link/data/maritimethesaurus/2529> <http://www.w3.org/2000/01/rdf-schema#label> "לוח שידרית"@he .
+<http://data.archaeology.link/data/maritimethesaurus/2529> <http://www.w3.org/2004/02/skos/core#broader> <http://data.archaeology.link/data/maritimethesaurus/1006> .
+<http://data.archaeology.link/data/maritimethesaurus/2529> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.archaeology.link/data/maritimethesaurus/cs01> .
+<http://data.archaeology.link/data/maritimethesaurus/2529> <http://www.w3.org/2004/02/skos/core#note> "This is a Concept of NAVIS I or NAVIS II."@en .
+<http://data.archaeology.link/data/maritimethesaurus/2529> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kielplanke"@de .
+<http://data.archaeology.link/data/maritimethesaurus/2529> <http://www.w3.org/2004/02/skos/core#prefLabel> "Keel-Plank"@en .
+<http://data.archaeology.link/data/maritimethesaurus/2529> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kølplanke"@dk .
+<http://data.archaeology.link/data/maritimethesaurus/2529> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kielplank"@nl .
+<http://data.archaeology.link/data/maritimethesaurus/2529> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bordage de Quille"@fr .
+<http://data.archaeology.link/data/maritimethesaurus/2529> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tavola di chiglia"@it .
+<http://data.archaeology.link/data/maritimethesaurus/2529> <http://www.w3.org/2004/02/skos/core#prefLabel> "tablón de aparadura"@es .
+<http://data.archaeology.link/data/maritimethesaurus/2529> <http://www.w3.org/2004/02/skos/core#prefLabel> "Klepka stępkowa"@pl .
+<http://data.archaeology.link/data/maritimethesaurus/2529> <http://www.w3.org/2004/02/skos/core#prefLabel> "Μαδέρι δίπλα στην Καρένα"@gr .
+<http://data.archaeology.link/data/maritimethesaurus/2529> <http://www.w3.org/2004/02/skos/core#prefLabel> "לוח שידרית"@he .
+<http://data.archaeology.link/data/maritimethesaurus/2529> <http://www.w3.org/ns/prov#wasAttributedTo> <http://data.archaeology.link/data/maritimethesaurus/ImportPythonScript> .
+<http://data.archaeology.link/data/maritimethesaurus/2529> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.wikidata.org/entity/Q115264680> .
+<http://data.archaeology.link/data/maritimethesaurus/2529> <http://www.w3.org/ns/prov#wasGeneratedBy> <http://data.archaeology.link/data/maritimethesaurus/activity_2529> .
+<http://data.archaeology.link/data/maritimethesaurus/2529> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

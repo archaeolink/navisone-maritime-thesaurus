@@ -1,0 +1,41 @@
+<http://data.archaeology.link/data/maritimethesaurus/1011> <http://creativecommons.org/ns#attributionName> "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des RGZM" .
+<http://data.archaeology.link/data/maritimethesaurus/1011> <http://creativecommons.org/ns#attributionURL> <http://www.wikidata.org/entity/Q115264627> .
+<http://data.archaeology.link/data/maritimethesaurus/1011> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by-sa/4.0/> .
+<http://data.archaeology.link/data/maritimethesaurus/1011> <http://purl.org/dc/terms/identifier> <http://data.archaeology.link/data/maritimethesaurus/> .
+<http://data.archaeology.link/data/maritimethesaurus/1011> <http://purl.org/dc/terms/issued> "2022-11-18T13:14:49.002454+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://data.archaeology.link/data/maritimethesaurus/1011> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q115264627> .
+<http://data.archaeology.link/data/maritimethesaurus/1011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://data.archaeology.link/data/maritimethesaurus/1011> <http://www.w3.org/2000/01/rdf-schema#label> "Roranlæg"@de .
+<http://data.archaeology.link/data/maritimethesaurus/1011> <http://www.w3.org/2000/01/rdf-schema#label> "Steering gear"@en .
+<http://data.archaeology.link/data/maritimethesaurus/1011> <http://www.w3.org/2000/01/rdf-schema#label> "Roranlæg"@dk .
+<http://data.archaeology.link/data/maritimethesaurus/1011> <http://www.w3.org/2000/01/rdf-schema#label> "Stuurinrichting"@nl .
+<http://data.archaeology.link/data/maritimethesaurus/1011> <http://www.w3.org/2000/01/rdf-schema#label> "Appareil à gouverner"@fr .
+<http://data.archaeology.link/data/maritimethesaurus/1011> <http://www.w3.org/2000/01/rdf-schema#label> "Dispositivo di governo"@it .
+<http://data.archaeology.link/data/maritimethesaurus/1011> <http://www.w3.org/2000/01/rdf-schema#label> "aparato de gobierno"@es .
+<http://data.archaeology.link/data/maritimethesaurus/1011> <http://www.w3.org/2000/01/rdf-schema#label> "Urządzenie sterowe"@pl .
+<http://data.archaeology.link/data/maritimethesaurus/1011> <http://www.w3.org/2000/01/rdf-schema#label> "Σύστημα πλοήγησης"@gr .
+<http://data.archaeology.link/data/maritimethesaurus/1011> <http://www.w3.org/2000/01/rdf-schema#label> "מערך היגוי"@he .
+<http://data.archaeology.link/data/maritimethesaurus/1011> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.archaeology.link/data/maritimethesaurus/cs01> .
+<http://data.archaeology.link/data/maritimethesaurus/1011> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2614> .
+<http://data.archaeology.link/data/maritimethesaurus/1011> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2615> .
+<http://data.archaeology.link/data/maritimethesaurus/1011> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2609> .
+<http://data.archaeology.link/data/maritimethesaurus/1011> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2611> .
+<http://data.archaeology.link/data/maritimethesaurus/1011> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2612> .
+<http://data.archaeology.link/data/maritimethesaurus/1011> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2610> .
+<http://data.archaeology.link/data/maritimethesaurus/1011> <http://www.w3.org/2004/02/skos/core#narrower> <http://data.archaeology.link/data/maritimethesaurus/2613> .
+<http://data.archaeology.link/data/maritimethesaurus/1011> <http://www.w3.org/2004/02/skos/core#note> "This is a parent Concept of NAVIS I or NAVIS II."@en .
+<http://data.archaeology.link/data/maritimethesaurus/1011> <http://www.w3.org/2004/02/skos/core#prefLabel> "Roranlæg"@de .
+<http://data.archaeology.link/data/maritimethesaurus/1011> <http://www.w3.org/2004/02/skos/core#prefLabel> "Steering gear"@en .
+<http://data.archaeology.link/data/maritimethesaurus/1011> <http://www.w3.org/2004/02/skos/core#prefLabel> "Roranlæg"@dk .
+<http://data.archaeology.link/data/maritimethesaurus/1011> <http://www.w3.org/2004/02/skos/core#prefLabel> "Stuurinrichting"@nl .
+<http://data.archaeology.link/data/maritimethesaurus/1011> <http://www.w3.org/2004/02/skos/core#prefLabel> "Appareil à gouverner"@fr .
+<http://data.archaeology.link/data/maritimethesaurus/1011> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dispositivo di governo"@it .
+<http://data.archaeology.link/data/maritimethesaurus/1011> <http://www.w3.org/2004/02/skos/core#prefLabel> "aparato de gobierno"@es .
+<http://data.archaeology.link/data/maritimethesaurus/1011> <http://www.w3.org/2004/02/skos/core#prefLabel> "Urządzenie sterowe"@pl .
+<http://data.archaeology.link/data/maritimethesaurus/1011> <http://www.w3.org/2004/02/skos/core#prefLabel> "Σύστημα πλοήγησης"@gr .
+<http://data.archaeology.link/data/maritimethesaurus/1011> <http://www.w3.org/2004/02/skos/core#prefLabel> "מערך היגוי"@he .
+<http://data.archaeology.link/data/maritimethesaurus/1011> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.archaeology.link/data/maritimethesaurus/cs01> .
+<http://data.archaeology.link/data/maritimethesaurus/1011> <http://www.w3.org/ns/prov#wasAttributedTo> <http://data.archaeology.link/data/maritimethesaurus/ImportPythonScript> .
+<http://data.archaeology.link/data/maritimethesaurus/1011> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.wikidata.org/entity/Q115264680> .
+<http://data.archaeology.link/data/maritimethesaurus/1011> <http://www.w3.org/ns/prov#wasGeneratedBy> <http://data.archaeology.link/data/maritimethesaurus/activity_1011> .
+<http://data.archaeology.link/data/maritimethesaurus/1011> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

@@ -1,0 +1,34 @@
+<http://data.archaeology.link/data/maritimethesaurus/2627> <http://creativecommons.org/ns#attributionName> "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des RGZM" .
+<http://data.archaeology.link/data/maritimethesaurus/2627> <http://creativecommons.org/ns#attributionURL> <http://www.wikidata.org/entity/Q115264627> .
+<http://data.archaeology.link/data/maritimethesaurus/2627> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by-sa/4.0/> .
+<http://data.archaeology.link/data/maritimethesaurus/2627> <http://purl.org/dc/terms/identifier> <http://data.archaeology.link/data/maritimethesaurus/> .
+<http://data.archaeology.link/data/maritimethesaurus/2627> <http://purl.org/dc/terms/issued> "2022-11-18T13:14:49.042497+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://data.archaeology.link/data/maritimethesaurus/2627> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q115264627> .
+<http://data.archaeology.link/data/maritimethesaurus/2627> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://data.archaeology.link/data/maritimethesaurus/2627> <http://www.w3.org/2000/01/rdf-schema#label> "Tau"@de .
+<http://data.archaeology.link/data/maritimethesaurus/2627> <http://www.w3.org/2000/01/rdf-schema#label> "Rope"@en .
+<http://data.archaeology.link/data/maritimethesaurus/2627> <http://www.w3.org/2000/01/rdf-schema#label> "Tov, Reb"@dk .
+<http://data.archaeology.link/data/maritimethesaurus/2627> <http://www.w3.org/2000/01/rdf-schema#label> "Touw"@nl .
+<http://data.archaeology.link/data/maritimethesaurus/2627> <http://www.w3.org/2000/01/rdf-schema#label> "Cordage"@fr .
+<http://data.archaeology.link/data/maritimethesaurus/2627> <http://www.w3.org/2000/01/rdf-schema#label> "Cavo"@it .
+<http://data.archaeology.link/data/maritimethesaurus/2627> <http://www.w3.org/2000/01/rdf-schema#label> "cabo"@es .
+<http://data.archaeology.link/data/maritimethesaurus/2627> <http://www.w3.org/2000/01/rdf-schema#label> "Lina"@pl .
+<http://data.archaeology.link/data/maritimethesaurus/2627> <http://www.w3.org/2000/01/rdf-schema#label> "Σχοινί"@gr .
+<http://data.archaeology.link/data/maritimethesaurus/2627> <http://www.w3.org/2000/01/rdf-schema#label> "יתר; חבל"@he .
+<http://data.archaeology.link/data/maritimethesaurus/2627> <http://www.w3.org/2004/02/skos/core#broader> <http://data.archaeology.link/data/maritimethesaurus/1014> .
+<http://data.archaeology.link/data/maritimethesaurus/2627> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.archaeology.link/data/maritimethesaurus/cs01> .
+<http://data.archaeology.link/data/maritimethesaurus/2627> <http://www.w3.org/2004/02/skos/core#note> "This is a Concept of NAVIS I or NAVIS II."@en .
+<http://data.archaeology.link/data/maritimethesaurus/2627> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tau"@de .
+<http://data.archaeology.link/data/maritimethesaurus/2627> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rope"@en .
+<http://data.archaeology.link/data/maritimethesaurus/2627> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tov, Reb"@dk .
+<http://data.archaeology.link/data/maritimethesaurus/2627> <http://www.w3.org/2004/02/skos/core#prefLabel> "Touw"@nl .
+<http://data.archaeology.link/data/maritimethesaurus/2627> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cordage"@fr .
+<http://data.archaeology.link/data/maritimethesaurus/2627> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cavo"@it .
+<http://data.archaeology.link/data/maritimethesaurus/2627> <http://www.w3.org/2004/02/skos/core#prefLabel> "cabo"@es .
+<http://data.archaeology.link/data/maritimethesaurus/2627> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lina"@pl .
+<http://data.archaeology.link/data/maritimethesaurus/2627> <http://www.w3.org/2004/02/skos/core#prefLabel> "Σχοινί"@gr .
+<http://data.archaeology.link/data/maritimethesaurus/2627> <http://www.w3.org/2004/02/skos/core#prefLabel> "יתר; חבל"@he .
+<http://data.archaeology.link/data/maritimethesaurus/2627> <http://www.w3.org/ns/prov#wasAttributedTo> <http://data.archaeology.link/data/maritimethesaurus/ImportPythonScript> .
+<http://data.archaeology.link/data/maritimethesaurus/2627> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.wikidata.org/entity/Q115264680> .
+<http://data.archaeology.link/data/maritimethesaurus/2627> <http://www.w3.org/ns/prov#wasGeneratedBy> <http://data.archaeology.link/data/maritimethesaurus/activity_2627> .
+<http://data.archaeology.link/data/maritimethesaurus/2627> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

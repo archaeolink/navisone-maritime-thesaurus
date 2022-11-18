@@ -1,0 +1,32 @@
+<http://data.archaeology.link/data/maritimethesaurus/2685> <http://creativecommons.org/ns#attributionName> "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des RGZM" .
+<http://data.archaeology.link/data/maritimethesaurus/2685> <http://creativecommons.org/ns#attributionURL> <http://www.wikidata.org/entity/Q115264627> .
+<http://data.archaeology.link/data/maritimethesaurus/2685> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by-sa/4.0/> .
+<http://data.archaeology.link/data/maritimethesaurus/2685> <http://purl.org/dc/terms/identifier> <http://data.archaeology.link/data/maritimethesaurus/> .
+<http://data.archaeology.link/data/maritimethesaurus/2685> <http://purl.org/dc/terms/issued> "2022-11-18T13:14:49.022432+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://data.archaeology.link/data/maritimethesaurus/2685> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q115264627> .
+<http://data.archaeology.link/data/maritimethesaurus/2685> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://data.archaeology.link/data/maritimethesaurus/2685> <http://www.w3.org/2000/01/rdf-schema#label> "Flickung"@de .
+<http://data.archaeology.link/data/maritimethesaurus/2685> <http://www.w3.org/2000/01/rdf-schema#label> "repair"@en .
+<http://data.archaeology.link/data/maritimethesaurus/2685> <http://www.w3.org/2000/01/rdf-schema#label> "reparation"@dk .
+<http://data.archaeology.link/data/maritimethesaurus/2685> <http://www.w3.org/2000/01/rdf-schema#label> "reparatie"@nl .
+<http://data.archaeology.link/data/maritimethesaurus/2685> <http://www.w3.org/2000/01/rdf-schema#label> "réparation"@fr .
+<http://data.archaeology.link/data/maritimethesaurus/2685> <http://www.w3.org/2000/01/rdf-schema#label> "riparazione"@it .
+<http://data.archaeology.link/data/maritimethesaurus/2685> <http://www.w3.org/2000/01/rdf-schema#label> "reparacion"@es .
+<http://data.archaeology.link/data/maritimethesaurus/2685> <http://www.w3.org/2000/01/rdf-schema#label> "naprawa"@pl .
+<http://data.archaeology.link/data/maritimethesaurus/2685> <http://www.w3.org/2000/01/rdf-schema#label> "η επισκευή"@gr .
+<http://data.archaeology.link/data/maritimethesaurus/2685> <http://www.w3.org/2004/02/skos/core#broader> <http://data.archaeology.link/data/maritimethesaurus/1009> .
+<http://data.archaeology.link/data/maritimethesaurus/2685> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.archaeology.link/data/maritimethesaurus/cs01> .
+<http://data.archaeology.link/data/maritimethesaurus/2685> <http://www.w3.org/2004/02/skos/core#note> "This is a Concept of NAVIS I or NAVIS II."@en .
+<http://data.archaeology.link/data/maritimethesaurus/2685> <http://www.w3.org/2004/02/skos/core#prefLabel> "Flickung"@de .
+<http://data.archaeology.link/data/maritimethesaurus/2685> <http://www.w3.org/2004/02/skos/core#prefLabel> "repair"@en .
+<http://data.archaeology.link/data/maritimethesaurus/2685> <http://www.w3.org/2004/02/skos/core#prefLabel> "reparation"@dk .
+<http://data.archaeology.link/data/maritimethesaurus/2685> <http://www.w3.org/2004/02/skos/core#prefLabel> "reparatie"@nl .
+<http://data.archaeology.link/data/maritimethesaurus/2685> <http://www.w3.org/2004/02/skos/core#prefLabel> "réparation"@fr .
+<http://data.archaeology.link/data/maritimethesaurus/2685> <http://www.w3.org/2004/02/skos/core#prefLabel> "riparazione"@it .
+<http://data.archaeology.link/data/maritimethesaurus/2685> <http://www.w3.org/2004/02/skos/core#prefLabel> "reparacion"@es .
+<http://data.archaeology.link/data/maritimethesaurus/2685> <http://www.w3.org/2004/02/skos/core#prefLabel> "naprawa"@pl .
+<http://data.archaeology.link/data/maritimethesaurus/2685> <http://www.w3.org/2004/02/skos/core#prefLabel> "η επισκευή"@gr .
+<http://data.archaeology.link/data/maritimethesaurus/2685> <http://www.w3.org/ns/prov#wasAttributedTo> <http://data.archaeology.link/data/maritimethesaurus/ImportPythonScript> .
+<http://data.archaeology.link/data/maritimethesaurus/2685> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.wikidata.org/entity/Q115264680> .
+<http://data.archaeology.link/data/maritimethesaurus/2685> <http://www.w3.org/ns/prov#wasGeneratedBy> <http://data.archaeology.link/data/maritimethesaurus/activity_2685> .
+<http://data.archaeology.link/data/maritimethesaurus/2685> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

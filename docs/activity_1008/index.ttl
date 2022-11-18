@@ -1,0 +1,5 @@
+<http://data.archaeology.link/data/maritimethesaurus/activity_1008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Activity> .
+<http://data.archaeology.link/data/maritimethesaurus/activity_1008> <http://www.w3.org/ns/prov#endedAtTime> "2022-11-18T13:14:49.002454+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://data.archaeology.link/data/maritimethesaurus/activity_1008> <http://www.w3.org/ns/prov#startedAtTime> "2022-11-18T13:14:48.992495+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://data.archaeology.link/data/maritimethesaurus/activity_1008> <http://www.w3.org/ns/prov#wasAssociatedWith> <http://data.archaeology.link/data/maritimethesaurus/ImportPythonScript> .
+<http://data.archaeology.link/data/maritimethesaurus/activity_1008> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .

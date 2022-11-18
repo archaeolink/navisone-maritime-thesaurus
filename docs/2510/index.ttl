@@ -1,0 +1,34 @@
+<http://data.archaeology.link/data/maritimethesaurus/2510> <http://creativecommons.org/ns#attributionName> "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des RGZM" .
+<http://data.archaeology.link/data/maritimethesaurus/2510> <http://creativecommons.org/ns#attributionURL> <http://www.wikidata.org/entity/Q115264627> .
+<http://data.archaeology.link/data/maritimethesaurus/2510> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by-sa/4.0/> .
+<http://data.archaeology.link/data/maritimethesaurus/2510> <http://purl.org/dc/terms/identifier> <http://data.archaeology.link/data/maritimethesaurus/> .
+<http://data.archaeology.link/data/maritimethesaurus/2510> <http://purl.org/dc/terms/issued> "2022-11-18T13:14:49.018494+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://data.archaeology.link/data/maritimethesaurus/2510> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q115264627> .
+<http://data.archaeology.link/data/maritimethesaurus/2510> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://data.archaeology.link/data/maritimethesaurus/2510> <http://www.w3.org/2000/01/rdf-schema#label> "Unbekannter Schiffstyp"@de .
+<http://data.archaeology.link/data/maritimethesaurus/2510> <http://www.w3.org/2000/01/rdf-schema#label> "Undefined ship type"@en .
+<http://data.archaeology.link/data/maritimethesaurus/2510> <http://www.w3.org/2000/01/rdf-schema#label> "Udefineret skibstype"@dk .
+<http://data.archaeology.link/data/maritimethesaurus/2510> <http://www.w3.org/2000/01/rdf-schema#label> "Onbekend scheepstype"@nl .
+<http://data.archaeology.link/data/maritimethesaurus/2510> <http://www.w3.org/2000/01/rdf-schema#label> "Type du bateau inconnu"@fr .
+<http://data.archaeology.link/data/maritimethesaurus/2510> <http://www.w3.org/2000/01/rdf-schema#label> "Tipo navale indefinito"@it .
+<http://data.archaeology.link/data/maritimethesaurus/2510> <http://www.w3.org/2000/01/rdf-schema#label> "tipo desconocido"@es .
+<http://data.archaeology.link/data/maritimethesaurus/2510> <http://www.w3.org/2000/01/rdf-schema#label> "Nieznany typ"@pl .
+<http://data.archaeology.link/data/maritimethesaurus/2510> <http://www.w3.org/2000/01/rdf-schema#label> "Ακαθόριστος Τύπος"@gr .
+<http://data.archaeology.link/data/maritimethesaurus/2510> <http://www.w3.org/2000/01/rdf-schema#label> "סוג כלי שיט לא מוגדר; טיפוס לא מוגדר"@he .
+<http://data.archaeology.link/data/maritimethesaurus/2510> <http://www.w3.org/2004/02/skos/core#broader> <http://data.archaeology.link/data/maritimethesaurus/1004> .
+<http://data.archaeology.link/data/maritimethesaurus/2510> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.archaeology.link/data/maritimethesaurus/cs01> .
+<http://data.archaeology.link/data/maritimethesaurus/2510> <http://www.w3.org/2004/02/skos/core#note> "This is a Concept of NAVIS I or NAVIS II."@en .
+<http://data.archaeology.link/data/maritimethesaurus/2510> <http://www.w3.org/2004/02/skos/core#prefLabel> "Unbekannter Schiffstyp"@de .
+<http://data.archaeology.link/data/maritimethesaurus/2510> <http://www.w3.org/2004/02/skos/core#prefLabel> "Undefined ship type"@en .
+<http://data.archaeology.link/data/maritimethesaurus/2510> <http://www.w3.org/2004/02/skos/core#prefLabel> "Udefineret skibstype"@dk .
+<http://data.archaeology.link/data/maritimethesaurus/2510> <http://www.w3.org/2004/02/skos/core#prefLabel> "Onbekend scheepstype"@nl .
+<http://data.archaeology.link/data/maritimethesaurus/2510> <http://www.w3.org/2004/02/skos/core#prefLabel> "Type du bateau inconnu"@fr .
+<http://data.archaeology.link/data/maritimethesaurus/2510> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tipo navale indefinito"@it .
+<http://data.archaeology.link/data/maritimethesaurus/2510> <http://www.w3.org/2004/02/skos/core#prefLabel> "tipo desconocido"@es .
+<http://data.archaeology.link/data/maritimethesaurus/2510> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nieznany typ"@pl .
+<http://data.archaeology.link/data/maritimethesaurus/2510> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ακαθόριστος Τύπος"@gr .
+<http://data.archaeology.link/data/maritimethesaurus/2510> <http://www.w3.org/2004/02/skos/core#prefLabel> "סוג כלי שיט לא מוגדר; טיפוס לא מוגדר"@he .
+<http://data.archaeology.link/data/maritimethesaurus/2510> <http://www.w3.org/ns/prov#wasAttributedTo> <http://data.archaeology.link/data/maritimethesaurus/ImportPythonScript> .
+<http://data.archaeology.link/data/maritimethesaurus/2510> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.wikidata.org/entity/Q115264680> .
+<http://data.archaeology.link/data/maritimethesaurus/2510> <http://www.w3.org/ns/prov#wasGeneratedBy> <http://data.archaeology.link/data/maritimethesaurus/activity_2510> .
+<http://data.archaeology.link/data/maritimethesaurus/2510> <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by-sa/4.0> .
