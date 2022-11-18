@@ -31,10 +31,13 @@ starttime = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%fZ")
 
 # set input csv
 csv = "parent.csv"
+csv2 = "items.csv"
 dir_path = os.path.dirname(os.path.realpath(__file__))
 file_in = dir_path.replace("\\py", "\\csv") + "\\" + csv
+file_in2 = dir_path.replace("\\py", "\\csv") + "\\" + csv2
 
 print(file_in)
+print(file_in2)
 
 # read csv file
 data = pd.read_csv(
@@ -76,7 +79,7 @@ for index, row in data.iterrows():
     thisid = int(str(row['id'])) + 1000
     lines.append("nomt:" + str(thisid) + " " + "rdf:type" + " skos:Concept .")
     lines.append("nomt:" + "cs01" + " " + "skos:hasTopConcept " + "nomt:" + str(row['id']) + " .")
-    lines.append("nomt:" + str(thisid) + " " + "skos:inScheme" + " nomt:thesaurus .")
+    lines.append("nomt:" + str(thisid) + " " + "skos:inScheme" + " nomt:cs01 .")
     lines.append("nomt:" + str(thisid) + " " + "skos:topConceptOf" + " nomt:cs01 .")
     # metadata
     lines.append("nomt:" + str(thisid) + " " + "cc:license" + " <" + "http://creativecommons.org/licenses/by-sa/4.0/" + "> .")
@@ -106,7 +109,6 @@ for index, row in data.iterrows():
         lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['gr']) + "@gr' .")
     if str(row['he']) != 'nan':
         lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['he']) + "@he' .")
-
     # prov-o
     lines.append("nomt:" + str(thisid) + " " + "prov:wasAttributedTo" + " nomt:ImportPythonScript .")
     lines.append("nomt:" + str(thisid) + " " + "prov:wasDerivedFrom" + " <http://www.wikidata.org/entity/Q115264680> .")
@@ -116,6 +118,68 @@ for index, row in data.iterrows():
     lines.append("nomt:activity_" + str(thisid) + " " + "prov:endedAtTime '" + datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%fZ") + "'^^xsd:dateTime .")
     lines.append("nomt:activity_" + str(thisid) + " " + "prov:wasAssociatedWith" + " nomt:ImportPythonScript .")
     lines.append("")
+
+# read csv file
+data2 = pd.read_csv(
+    file_in2,
+    encoding='utf-8',
+    sep='|',
+    usecols=['id', 'navisid', 'de', 'en', 'dk', 'nl', 'fr', 'it', 'es', 'pl', 'gr', 'he', 'origindesc', 'fk_id_parent']
+)
+print(data2.info())
+
+# add parent items
+for index, row in data2.iterrows():
+    # print(lineNo)
+    tmpno = lineNo - 2
+    if tmpno % 50 == 0:
+        print(tmpno)
+    lineNo += 1
+    thisid = int(str(row['id'])) + 2000
+    fkid = int(str(row['fk_id_parent'])) + 1000
+    lines.append("nomt:" + str(thisid) + " " + "rdf:type" + " skos:Concept .")
+    lines.append("nomt:" + str(fkid) + " " + "skos:narrower " + "nomt:" + str(thisid) + " .")
+    lines.append("nomt:" + str(thisid) + " " + "skos:broader " + "nomt:" + str(fkid) + " .")
+    lines.append("nomt:" + str(thisid) + " " + "skos:inScheme" + " nomt:cs01 .")
+    # metadata
+    lines.append("nomt:" + str(thisid) + " " + "cc:license" + " <" + "http://creativecommons.org/licenses/by-sa/4.0/" + "> .")
+    lines.append("nomt:" + str(thisid) + " " + "cc:attributionURL" + " <" + "http://www.wikidata.org/entity/Q115264627" + "> .")
+    lines.append("nomt:" + str(thisid) + " " + "cc:attributionName" + " '" + "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des RGZM" + "' .")
+    lines.append("nomt:" + str(thisid) + " " + "dct:publisher" + " <" + "http://www.wikidata.org/entity/Q115264627" + "> .")
+    lines.append("nomt:" + str(thisid) + " " + "dct:identifier" + " <" + "http://data.archaeology.link/data/maritimethesaurus/" + "> .")
+    lines.append("nomt:" + str(thisid) + " " + "dct:issued '" + datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%fZ") + "'^^xsd:dateTime .")
+    # item
+    if str(row['de']) != 'nan':
+        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['de']) + "@de' .")
+    if str(row['en']) != 'nan':
+        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['en']) + "@en' .")
+    if str(row['dk']) != 'nan':
+        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['dk']) + "@dk' .")
+    if str(row['nl']) != 'nan':
+        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['nl']) + "@nl' .")
+    if str(row['fr']) != 'nan':
+        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['fr']) + "@fr' .")
+    if str(row['it']) != 'nan':
+        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['it']) + "@it' .")
+    if str(row['es']) != 'nan':
+        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['es']) + "@es' .")
+    if str(row['pl']) != 'nan':
+        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['pl']) + "@pl' .")
+    if str(row['gr']) != 'nan':
+        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['gr']) + "@gr' .")
+    if str(row['he']) != 'nan':
+        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['he']) + "@he' .")
+    # prov-o
+    lines.append("nomt:" + str(thisid) + " " + "prov:wasAttributedTo" + " nomt:ImportPythonScript .")
+    lines.append("nomt:" + str(thisid) + " " + "prov:wasDerivedFrom" + " <http://www.wikidata.org/entity/Q115264680> .")
+    lines.append("nomt:" + str(thisid) + " " + "prov:wasGeneratedBy" + " nomt:activity_" + str(thisid) + " .")
+    lines.append("nomt:activity_" + str(thisid) + " " + "rdf:type" + " <http://www.w3.org/ns/prov#Activity> .")
+    lines.append("nomt:activity_" + str(thisid) + " " + "prov:startedAtTime '" + starttime + "'^^xsd:dateTime .")
+    lines.append("nomt:activity_" + str(thisid) + " " + "prov:endedAtTime '" + datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%fZ") + "'^^xsd:dateTime .")
+    lines.append("nomt:activity_" + str(thisid) + " " + "prov:wasAssociatedWith" + " nomt:ImportPythonScript .")
+    lines.append("")
+
+#####################
 
 files = (len(lines) / 100000) + 1
 print("lines", len(lines), "files", int(files))
@@ -128,7 +192,7 @@ print("start writing turtle files...")
 
 f = 0
 step = 100000
-fileprefix = "parent_"
+filename = "navisone_maritime_thesaurus.ttl"
 prefixes = ""
 prefixes += "@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .\r\n"
 prefixes += "@prefix owl: <http://www.w3.org/2002/07/owl#> .\r\n"
@@ -146,9 +210,9 @@ prefixes += "\r\n"
 
 for x in range(1, int(files) + 1):
     strX = str(x)
-    filename = dir_path.replace("\\py", "\\data") + "\\" + fileprefix + strX + ".ttl"
+    filename = dir_path.replace("\\py", "\\data") + "\\" + filename
     file = codecs.open(filename, "w", "utf-8")
-    file.write("# create triples from " + csv + " \r\n")
+    file.write("# create triples from " + csv + " and " + csv2 + " \r\n")
     file.write("# on " + datetime.datetime.now().strftime("%Y-%m-%d %H:%M") + "\r\n\r\n")
     file.write(prefixes)
     i = f
@@ -157,7 +221,7 @@ for x in range(1, int(files) + 1):
             file.write(line)
             file.write("\r\n")
     f = f + step
-    print("Yuhu! > " + fileprefix + strX + ".ttl")
+    print("Yuhu! > " + filename)
     file.close()
 
 print("*****************************************")
