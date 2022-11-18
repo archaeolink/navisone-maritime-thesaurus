@@ -1,0 +1,17 @@
+id|de|en|dk|nl|fr|it|es|pl|gr|he|navisid
+1|Schiffsfunktion|ship function|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL
+2|Arbeitsumgebung|operating environment|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL
+6|Skrog|Hull|Skrog|Huid|Coque extérieure|Scafo|casco|Kadłub|Σκάφος (Σκαρί)|גוף כלי שיט|2351
+7|Indvendig konstruktion|Internal construction|Indvendig konstruktion|Interne constructie|Construction interne|Costruzione interna|construcción interna|Elementy konstrukcyjne|Εσωτερική Κατασκευή|מבנה פנימי|2352
+8|Dæk og klædning|Decks and Ceilings|Dæk og klædning|Dekken|Pontage|Ponti|cubierta / guarnición|Pokłady i szalunki|Κατάστρωμα και Φόδρο (Εντερώνεια)|סיפון וריצפה|2353
+3|Antrieb|propulsion|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL
+4|Schiffstyp|ship type|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL
+9|Konstruktionsmæssige træk|Constructional features|Konstruktionsmæssige træk|Huidverbindingen|Caractéristiques de construction|Caratteristiche costruttive|características de construcción|Cechy konstrukcyjne|Κατασκευαστικά Χαρακτηριστικά|מאפיינים של הבניה|2354
+10|Sejl og rig|Sailing gear|Sejl og rig|Zeiltuig|Voilage|Velatura|aparejo velero|Osprzęt żaglowy|Εξαρτισμός (αρματωσιά)|ערך; מערך שיט|2355
+11|Roranlæg|Steering gear|Roranlæg|Stuurinrichting|Appareil à gouverner|Dispositivo di governo|aparato de gobierno|Urządzenie sterowe|Σύστημα πλοήγησης|מערך היגוי|2356
+12|Roning og padling|Rowing and paddling|Roning og padling|Roeien en peddelen|À ramse et à pagaye|Remi e pagaia|propulsión a remo y a canalete|Wiosłowanie|Κωπηλασία και Ταρσοπλοϊα|חתירה ודיווש|2357
+13|Stagning og dragning|Punting and towing|Stagning og dragning|Punten en jagen|À pôle et à corde de tirage|Spinta e alaggio|propulsión a pértiga y a la siga|Napędzanie na pych i holowanie|Ώθηση με κοντάρι και Ρυμούλκηση|דחיפה וגרירה|2358
+14|Opankring og fortøjring|Handling|Opankring og fortøjring|Uitrusting|Manoeuvre|Manovre|manejabilidad / manipulación|Maneworwanie|Γαρνιμέντο|שינוע; טיפול|2359
+15|Krigsudstyr|Warfare|Krigsudstyr|Oorlogvoering|Guerre|Guerra|material e aparejo de guerra|Uzbrojenie|Εχθροπραξίες|לוחמה; מלחמה|2360
+16|Overfladebehandling|Surface treatment|Overfladebehandling|Oppervlaktebehandeling|Traitement de surface|Trattamento esterno|acabado de superficie|Pokrycie powierzchni|Συντήρηση εξωτερικής επιφάνειας|משטח מטופל|2361
+19|Overbygning|Superstructure|Overbygning|Opbouw|Superstructure|Sovrastruttura|superestructura|Nadbudowa|Υπερκατασκευή|מבנה עליון; מבנה על|2364
