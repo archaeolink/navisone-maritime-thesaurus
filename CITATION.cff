@@ -2,16 +2,18 @@ cff-version: 1.2.0
 authors:
   - family-names: Thiery
     given-names: Florian
+    affiliation: "RGZM"
     orcid: https://orcid.org/0000-0002-3246-3531
   - family-names: Allard W.
     given-names: Mees
+    affiliation: "RGZM"
     orcid: https://orcid.org/0000-0002-7634-5342
   - name: "NAVIS.one Maritime Thesaurus"
 title: "NAVIS.one Maritime Thesaurus"
 abstract: Maritime thesaurus based on the NAVIS I-III databases.
 version: 1.0
 type: dataset
-doi: TBD
+doi: 10.5281/zenodo.7353771
 date-released: 2022-11-18
 identifiers:
   - description: This is the collection of archived snapshots of all versions
