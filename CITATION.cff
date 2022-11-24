@@ -16,10 +16,10 @@ date-released: 2022-11-18
 identifiers:
   - description: This is the collection of archived snapshots of all versions
     type: doi
-    value: "TBD"
+    value: "10.5281/zenodo.7353771"
   - description: This is the archived snapshot of version 1.0
     type: doi
-    value: "TBD"
+    value: "10.5281/zenodo.7353772"
 repository-code: "https://github.com/archaeolink/navisone-maritime-thesaurus"
 keywords:
   - "Linked Open Data"
