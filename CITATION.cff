@@ -9,7 +9,7 @@ authors:
   - name: "NAVIS.one Maritime Thesaurus"
 title: "NAVIS.one Maritime Thesaurus"
 abstract: Maritime thesaurus based on the NAVIS I-III databases.
-version: 0.1
+version: 1.0
 type: dataset
 doi: TBD
 date-released: 2022-11-18
@@ -17,7 +17,7 @@ identifiers:
   - description: This is the collection of archived snapshots of all versions
     type: doi
     value: "TBD"
-  - description: This is the archived snapshot of version 0.1
+  - description: This is the archived snapshot of version 1.0
     type: doi
     value: "TBD"
 repository-code: "https://github.com/archaeolink/navisone-maritime-thesaurus"
