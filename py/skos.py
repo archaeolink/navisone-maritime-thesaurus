@@ -6,7 +6,7 @@ __version__ = "1.0"
 __maintainer__ = "Florian Thiery"
 __email__ = "florian.thiery@rgzm.de"
 __status__ = "beta"
-__update__ = "2022-11-18"
+__update__ = "2022-11-29"
 
 # import dependencies
 import uuid
@@ -90,36 +90,9 @@ for index, row in data.iterrows():
     lines.append("nomt:" + str(thisid) + " " + "dct:identifier" + " <" + "http://data.archaeology.link/data/maritimethesaurus/" + "> .")
     lines.append("nomt:" + str(thisid) + " " + "dct:issued '" + datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%fZ") + "'^^xsd:dateTime .")
     # item
-    if str(row['de']) != 'nan':
-        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['de']).replace('\'', '`') + "'@de .")
-        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" + str(row['de']).replace('\'', '`') + "'@de .")
     if str(row['en']) != 'nan':
         lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['en']).replace('\'', '`') + "'@en .")
         lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" + str(row['en']).replace('\'', '`') + "'@en .")
-    if str(row['dk']) != 'nan':
-        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['dk']).replace('\'', '`') + "'@dk .")
-        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" + str(row['dk']).replace('\'', '`') + "'@dk .")
-    if str(row['nl']) != 'nan':
-        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['nl']).replace('\'', '`') + "'@nl .")
-        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" + str(row['nl']).replace('\'', '`') + "'@nl .")
-    if str(row['fr']) != 'nan':
-        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['fr']).replace('\'', '`') + "'@fr .")
-        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" + str(row['fr']).replace('\'', '`') + "'@fr .")
-    if str(row['it']) != 'nan':
-        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['it']).replace('\'', '`') + "'@it .")
-        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" + str(row['it']).replace('\'', '`') + "'@it .")
-    if str(row['es']) != 'nan':
-        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['es']).replace('\'', '`') + "'@es .")
-        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" + str(row['es']).replace('\'', '`') + "'@es .")
-    if str(row['pl']) != 'nan':
-        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['pl']).replace('\'', '`') + "'@pl .")
-        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" + str(row['pl']).replace('\'', '`') + "'@pl .")
-    if str(row['gr']) != 'nan':
-        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['gr']).replace('\'', '`') + "'@gr .")
-        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" + str(row['gr']).replace('\'', '`') + "'@gr .")
-    if str(row['he']) != 'nan':
-        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['he']).replace('\'', '`') + "'@he .")
-        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" + str(row['he']).replace('\'', '`') + "'@he .")
     # prov-o
     lines.append("nomt:" + str(thisid) + " " + "prov:wasAttributedTo" + " nomt:ImportPythonScript .")
     lines.append("nomt:" + str(thisid) + " " + "prov:wasDerivedFrom" + " <http://www.wikidata.org/entity/Q115264680> .")
@@ -161,36 +134,9 @@ for index, row in data2.iterrows():
     lines.append("nomt:" + str(thisid) + " " + "dct:identifier" + " <" + "http://data.archaeology.link/data/maritimethesaurus/" + "> .")
     lines.append("nomt:" + str(thisid) + " " + "dct:issued '" + datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%fZ") + "'^^xsd:dateTime .")
     # item
-    if str(row['de']) != 'nan':
-        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['de']).replace('\'', '`') + "'@de .")
-        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" + str(row['de']).replace('\'', '`') + "'@de .")
     if str(row['en']) != 'nan':
         lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['en']).replace('\'', '`') + "'@en .")
         lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" + str(row['en']).replace('\'', '`') + "'@en .")
-    if str(row['dk']) != 'nan':
-        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['dk']).replace('\'', '`') + "'@dk .")
-        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" + str(row['dk']).replace('\'', '`') + "'@dk .")
-    if str(row['nl']) != 'nan':
-        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['nl']).replace('\'', '`') + "'@nl .")
-        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" + str(row['nl']).replace('\'', '`') + "'@nl .")
-    if str(row['fr']) != 'nan':
-        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['fr']).replace('\'', '`') + "'@fr .")
-        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" + str(row['fr']).replace('\'', '`') + "'@fr .")
-    if str(row['it']) != 'nan':
-        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['it']).replace('\'', '`') + "'@it .")
-        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" + str(row['it']).replace('\'', '`') + "'@it .")
-    if str(row['es']) != 'nan':
-        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['es']).replace('\'', '`') + "'@es .")
-        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" + str(row['es']).replace('\'', '`') + "'@es .")
-    if str(row['pl']) != 'nan':
-        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['pl']).replace('\'', '`') + "'@pl .")
-        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" + str(row['pl']).replace('\'', '`') + "'@pl .")
-    if str(row['gr']) != 'nan':
-        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['gr']).replace('\'', '`') + "'@gr .")
-        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" + str(row['gr']).replace('\'', '`') + "'@gr .")
-    if str(row['he']) != 'nan':
-        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['he']).replace('\'', '`') + "'@he .")
-        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" + str(row['he']).replace('\'', '`') + "'@he .")
     # prov-o
     lines.append("nomt:" + str(thisid) + " " + "prov:wasAttributedTo" + " nomt:ImportPythonScript .")
     lines.append("nomt:" + str(thisid) + " " + "prov:wasDerivedFrom" + " <http://www.wikidata.org/entity/Q115264680> .")
