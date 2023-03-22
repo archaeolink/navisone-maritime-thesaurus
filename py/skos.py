@@ -1,12 +1,12 @@
 __author__ = "Florian Thiery"
-__copyright__ = "MIT Licence 2022, RGZM, Florian Thiery"
+__copyright__ = "MIT Licence 2022-2023, LEIZA, Florian Thiery"
 __credits__ = ["Florian Thiery"]
 __license__ = "MIT"
 __version__ = "1.0"
 __maintainer__ = "Florian Thiery"
-__email__ = "florian.thiery@rgzm.de"
+__email__ = "florian.thiery@leiza.de"
 __status__ = "beta"
-__update__ = "2022-11-18"
+__update__ = "2023-03-22"
 
 # import dependencies
 import uuid
