@@ -208,7 +208,7 @@ for index, row in data2.iterrows():
     lines.append("nomt:" + str(thisid) + " " +
                  "skos:inScheme" + " nomt:cs01 .")
     lines.append("nomt:" + str(thisid) + " " + "skos:note" +
-                 " 'This is a parent Concept of NAVIS I or NAVIS II and now NAVISone.'@en .")
+                 " 'This is a Concept of NAVIS I or NAVIS II and now NAVISone.'@en .")
     lines.append("nomt:" + str(thisid) + " " + "lado:identifier_db '" +
                  str(row['navisid']).replace('\'', '`') + "' .")
     lines.append("nomt:" + str(thisid) + " " + "lado:origin_description '" +
