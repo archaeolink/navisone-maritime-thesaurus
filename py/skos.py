@@ -209,10 +209,10 @@ for index, row in data2.iterrows():
                  "skos:inScheme" + " nomt:cs01 .")
     lines.append("nomt:" + str(thisid) + " " + "skos:note" +
                  " 'This is a parent Concept of NAVIS I or NAVIS II and now NAVISone.'@en .")
-    lines.append("nomt:" + str(thisid) + " " + "lado:identifier_db" +
-                 str(row['navisid']).replace('\'', '`') + " .")
-    lines.append("nomt:" + str(thisid) + " " + "lado:origin_description" +
-                 str(row['origindesc']).replace('\'', '`') + " .")
+    lines.append("nomt:" + str(thisid) + " " + "lado:identifier_db '" +
+                 str(row['navisid']).replace('\'', '`') + "' .")
+    lines.append("nomt:" + str(thisid) + " " + "lado:origin_description '" +
+                 str(row['origindesc']).replace('\'', '`') + "' .")
     # metadata
     lines.append("nomt:" + str(thisid) + " " + "cc:license" + " <" +
                  "http://creativecommons.org/licenses/by-sa/4.0/" + "> .")
