@@ -64,11 +64,11 @@ lines.append("nomt:" + "cs01" + " " + "cc:license" + " <" +
 lines.append("nomt:" + "cs01" + " " + "cc:attributionURL" + " <" +
              "http://www.wikidata.org/entity/Q115264627" + "> .")
 lines.append("nomt:" + "cs01" + " " + "cc:attributionName" + " '" +
-             "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des RGZM" + "' .")
+             "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des LEIZA" + "' .")
 lines.append("nomt:" + "cs01" + " " + "dct:title" +
-             " 'Navis.one Maritime Thesaurus' .")
+             " 'NAVISone Maritime Thesaurus' .")
 lines.append("nomt:" + "cs01" + " " + "rdfs:label" +
-             " 'Navis.one Maritime Thesaurus' .")
+             " 'NAVISone Maritime Thesaurus' .")
 lines.append("nomt:" + "cs01" + " " + "dct:identifier" + " <" +
              "http://www.wikidata.org/entity/Q115264680" + "> .")
 lines.append("nomt:" + "cs01" + " " + "dct:publisher" + " <" +
