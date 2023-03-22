@@ -183,8 +183,8 @@ data2 = pd.read_csv(
     file_in2,
     encoding='utf-8',
     sep='|',
-    usecols=['id', 'navisid', 'de', 'en', 'dk', 'nl', 'fr', 'it',
-             'es', 'pl', 'gr', 'he', 'origindesc', 'fk_id_parent']
+    usecols=['id', 'navisid', 'de', 'en', 'dk', 'nl', 'fr', 'it', 'es', 'pl', 'gr', 'he', 'desc_en', 'desc_de',
+             'origindesc', 'fk_id_parent', 'gettyaat', 'gettyaatrelationtype', 'wikidata', 'wikidatarelationtype']
 )
 print(data2.info())
 
@@ -208,14 +208,18 @@ for index, row in data2.iterrows():
     lines.append("nomt:" + str(thisid) + " " +
                  "skos:inScheme" + " nomt:cs01 .")
     lines.append("nomt:" + str(thisid) + " " + "skos:note" +
-                 " 'This is a Concept of NAVIS I or NAVIS II.'@en .")
+                 " 'This is a parent Concept of NAVIS I or NAVIS II and now NAVISone.'@en .")
+    lines.append("nomt:" + str(thisid) + " " + "lado:identifier_db" +
+                 str(row['navisid']).replace('\'', '`') + " .")
+    lines.append("nomt:" + str(thisid) + " " + "lado:origin_description" +
+                 str(row['origindesc']).replace('\'', '`') + " .")
     # metadata
     lines.append("nomt:" + str(thisid) + " " + "cc:license" + " <" +
                  "http://creativecommons.org/licenses/by-sa/4.0/" + "> .")
     lines.append("nomt:" + str(thisid) + " " + "cc:attributionURL" +
                  " <" + "http://www.wikidata.org/entity/Q115264627" + "> .")
     lines.append("nomt:" + str(thisid) + " " + "cc:attributionName" + " '" +
-                 "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des RGZM" + "' .")
+                 "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des LEIZA" + "' .")
     lines.append("nomt:" + str(thisid) + " " + "dct:publisher" +
                  " <" + "http://www.wikidata.org/entity/Q115264627" + "> .")
     lines.append("nomt:" + str(thisid) + " " + "dct:identifier" + " <" +
@@ -273,6 +277,30 @@ for index, row in data2.iterrows():
                      str(row['he']).replace('\'', '`') + "'@he .")
         lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" +
                      str(row['he']).replace('\'', '`') + "'@he .")
+    # descriptions
+    if str(row['desc_en']) != 'nan':
+        lines.append("nomt:" + str(thisid) + " " + "skos:scopeNote" + " '" +
+                     str(row['desc_en']).replace('\'', '`') + "'@en .")
+        lines.append("nomt:" + str(thisid) + " " + "rdfs:comment" + " '" +
+                     str(row['desc_en']).replace('\'', '`') + "'@en .")
+    if str(row['desc_de']) != 'nan':
+        lines.append("nomt:" + str(thisid) + " " + "skos:scopeNote" + " '" +
+                     str(row['desc_de']).replace('\'', '`') + "'@de .")
+        lines.append("nomt:" + str(thisid) + " " + "rdfs:comment" + " '" +
+                     str(row['desc_de']).replace('\'', '`') + "'@de .")
+    # matches
+    if str(row['gettyaat']) != 'nan':
+        if str(row['gettyaatrelationtype']) != 'nan':
+            lines.append("nomt:" + str(thisid) + " " + str(row['gettyaatrelationtype']) + " " +
+                         "aat:" + str(row['gettyaat']) + " .")
+            lines.append("nomt:" + str(thisid) + " " + "lado:gettyaatMatch" + " " +
+                         "aat:" + str(row['gettyaat']) + " .")
+    if str(row['wikidata']) != 'nan':
+        if str(row['wikidatarelationtype']) != 'nan':
+            lines.append("nomt:" + str(thisid) + " " + str(row['wikidatarelationtype']) + " " +
+                         "wd:" + str(row['wikidata']) + " .")
+            lines.append("nomt:" + str(thisid) + " " + "lado:wikidataMatch" + " " +
+                         "wd:" + str(row['wikidata']) + " .")
     # prov-o
     lines.append("nomt:" + str(thisid) + " " +
                  "prov:wasAttributedTo" + " nomt:ImportPythonScript .")
@@ -317,6 +345,7 @@ prefixes += "@prefix nomt: <http://data.archaeology.link/data/maritimethesaurus/
 prefixes += "@prefix skos: <http://www.w3.org/2004/02/skos/core#> .\r\n"
 prefixes += "@prefix wd: <http://www.wikidata.org/entity/> .\r\n"
 prefixes += "@prefix cc: <http://creativecommons.org/ns#> .\r\n"
+prefixes += "@prefix aat: <http://vocab.getty.edu/aat/> .\r\n"
 prefixes += "\r\n"
 
 for x in range(1, int(files) + 1):
