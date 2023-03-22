@@ -96,14 +96,14 @@ for index, row in data.iterrows():
     lines.append("nomt:" + str(thisid) + " " +
                  "skos:topConceptOf" + " nomt:cs01 .")
     lines.append("nomt:" + str(thisid) + " " + "skos:note" +
-                 " 'This is a parent Concept of NAVIS I or NAVIS II.'@en .")
+                 " 'This is a parent Concept of NAVIS I or NAVIS II and now NAVISone.'@en .")
     # metadata
     lines.append("nomt:" + str(thisid) + " " + "cc:license" + " <" +
                  "http://creativecommons.org/licenses/by-sa/4.0/" + "> .")
     lines.append("nomt:" + str(thisid) + " " + "cc:attributionURL" +
                  " <" + "http://www.wikidata.org/entity/Q115264627" + "> .")
     lines.append("nomt:" + str(thisid) + " " + "cc:attributionName" + " '" +
-                 "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des RGZM" + "' .")
+                 "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des LEIZA" + "' .")
     lines.append("nomt:" + str(thisid) + " " + "dct:publisher" +
                  " <" + "http://www.wikidata.org/entity/Q115264627" + "> .")
     lines.append("nomt:" + str(thisid) + " " + "dct:identifier" + " <" +
