@@ -75,8 +75,10 @@ lines.append("nomt:" + "cs01" + " " + "dct:publisher" + " <" +
              "http://www.wikidata.org/entity/Q115264627" + "> .")
 lines.append("nomt:" + "cs01" + " " + "dct:creator" + " <" +
              "http://www.wikidata.org/entity/Q66606154" + "> .")
+lines.append("wd:Q66606154 rdfs:label 'Florian Thiery M.Sc.@en' .")
 lines.append("nomt:" + "cs01" + " " + "dct:creator" + " <" +
              "http://www.wikidata.org/entity/Q88865971" + "> .")
+lines.append("wd:Q88865971 rdfs:label 'Dr. Allard Wijnand Mees FSA@en' .")
 lines.append("nomt:" + "cs01" + " " + "dct:date" + " '2022-11-18' .")
 lines.append("")
 
