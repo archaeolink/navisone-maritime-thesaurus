@@ -44,7 +44,8 @@ data = pd.read_csv(
     file_in,
     encoding='utf-8',
     sep='|',
-    usecols=['id', 'de', 'en', 'dk', 'nl', 'fr', 'it', 'es', 'pl', 'gr', 'he', 'navisid']
+    usecols=['id', 'de', 'en', 'dk', 'nl', 'fr',
+             'it', 'es', 'pl', 'gr', 'he', 'navisid']
 )
 print(data.info())
 
@@ -56,16 +57,26 @@ lines = []
 # create skos:Concept Scheme
 
 lines.append("nomt:" + "cs01" + " " + "rdf:type" + " skos:ConceptScheme .")
-lines.append("nomt:" + "cs01" + " " + "dct:license" + " <" + "http://creativecommons.org/licenses/by-sa/4.0/" + "> .")
-lines.append("nomt:" + "cs01" + " " + "cc:license" + " <" + "http://creativecommons.org/licenses/by-sa/4.0/" + "> .")
-lines.append("nomt:" + "cs01" + " " + "cc:attributionURL" + " <" + "http://www.wikidata.org/entity/Q115264627" + "> .")
-lines.append("nomt:" + "cs01" + " " + "cc:attributionName" + " '" + "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des RGZM" + "' .")
-lines.append("nomt:" + "cs01" + " " + "dct:title" + " 'Navis.one Maritime Thesaurus' .")
-lines.append("nomt:" + "cs01" + " " + "rdfs:label" + " 'Navis.one Maritime Thesaurus' .")
-lines.append("nomt:" + "cs01" + " " + "dct:identifier" + " <" + "http://www.wikidata.org/entity/Q115264680" + "> .")
-lines.append("nomt:" + "cs01" + " " + "dct:publisher" + " <" + "http://www.wikidata.org/entity/Q115264627" + "> .")
-lines.append("nomt:" + "cs01" + " " + "dct:creator" + " <" + "http://www.wikidata.org/entity/Q66606154" + "> .")
-lines.append("nomt:" + "cs01" + " " + "dct:creator" + " <" + "http://www.wikidata.org/entity/Q88865971" + "> .")
+lines.append("nomt:" + "cs01" + " " + "dct:license" + " <" +
+             "http://creativecommons.org/licenses/by-sa/4.0/" + "> .")
+lines.append("nomt:" + "cs01" + " " + "cc:license" + " <" +
+             "http://creativecommons.org/licenses/by-sa/4.0/" + "> .")
+lines.append("nomt:" + "cs01" + " " + "cc:attributionURL" + " <" +
+             "http://www.wikidata.org/entity/Q115264627" + "> .")
+lines.append("nomt:" + "cs01" + " " + "cc:attributionName" + " '" +
+             "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des RGZM" + "' .")
+lines.append("nomt:" + "cs01" + " " + "dct:title" +
+             " 'Navis.one Maritime Thesaurus' .")
+lines.append("nomt:" + "cs01" + " " + "rdfs:label" +
+             " 'Navis.one Maritime Thesaurus' .")
+lines.append("nomt:" + "cs01" + " " + "dct:identifier" + " <" +
+             "http://www.wikidata.org/entity/Q115264680" + "> .")
+lines.append("nomt:" + "cs01" + " " + "dct:publisher" + " <" +
+             "http://www.wikidata.org/entity/Q115264627" + "> .")
+lines.append("nomt:" + "cs01" + " " + "dct:creator" + " <" +
+             "http://www.wikidata.org/entity/Q66606154" + "> .")
+lines.append("nomt:" + "cs01" + " " + "dct:creator" + " <" +
+             "http://www.wikidata.org/entity/Q88865971" + "> .")
 lines.append("nomt:" + "cs01" + " " + "dct:date" + " '2022-11-18' .")
 lines.append("")
 
@@ -78,56 +89,93 @@ for index, row in data.iterrows():
     lineNo += 1
     thisid = int(str(row['id'])) + 1000
     lines.append("nomt:" + str(thisid) + " " + "rdf:type" + " skos:Concept .")
-    lines.append("nomt:" + "cs01" + " " + "skos:hasTopConcept " + "nomt:" + str(thisid) + " .")
-    lines.append("nomt:" + str(thisid) + " " + "skos:inScheme" + " nomt:cs01 .")
-    lines.append("nomt:" + str(thisid) + " " + "skos:topConceptOf" + " nomt:cs01 .")
-    lines.append("nomt:" + str(thisid) + " " + "skos:note" + " 'This is a parent Concept of NAVIS I or NAVIS II.'@en .")
+    lines.append("nomt:" + "cs01" + " " + "skos:hasTopConcept " +
+                 "nomt:" + str(thisid) + " .")
+    lines.append("nomt:" + str(thisid) + " " +
+                 "skos:inScheme" + " nomt:cs01 .")
+    lines.append("nomt:" + str(thisid) + " " +
+                 "skos:topConceptOf" + " nomt:cs01 .")
+    lines.append("nomt:" + str(thisid) + " " + "skos:note" +
+                 " 'This is a parent Concept of NAVIS I or NAVIS II.'@en .")
     # metadata
-    lines.append("nomt:" + str(thisid) + " " + "cc:license" + " <" + "http://creativecommons.org/licenses/by-sa/4.0/" + "> .")
-    lines.append("nomt:" + str(thisid) + " " + "cc:attributionURL" + " <" + "http://www.wikidata.org/entity/Q115264627" + "> .")
-    lines.append("nomt:" + str(thisid) + " " + "cc:attributionName" + " '" + "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des RGZM" + "' .")
-    lines.append("nomt:" + str(thisid) + " " + "dct:publisher" + " <" + "http://www.wikidata.org/entity/Q115264627" + "> .")
-    lines.append("nomt:" + str(thisid) + " " + "dct:identifier" + " <" + "http://data.archaeology.link/data/maritimethesaurus/" + "> .")
-    lines.append("nomt:" + str(thisid) + " " + "dct:issued '" + datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%fZ") + "'^^xsd:dateTime .")
+    lines.append("nomt:" + str(thisid) + " " + "cc:license" + " <" +
+                 "http://creativecommons.org/licenses/by-sa/4.0/" + "> .")
+    lines.append("nomt:" + str(thisid) + " " + "cc:attributionURL" +
+                 " <" + "http://www.wikidata.org/entity/Q115264627" + "> .")
+    lines.append("nomt:" + str(thisid) + " " + "cc:attributionName" + " '" +
+                 "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des RGZM" + "' .")
+    lines.append("nomt:" + str(thisid) + " " + "dct:publisher" +
+                 " <" + "http://www.wikidata.org/entity/Q115264627" + "> .")
+    lines.append("nomt:" + str(thisid) + " " + "dct:identifier" + " <" +
+                 "http://data.archaeology.link/data/maritimethesaurus/" + "> .")
+    lines.append("nomt:" + str(thisid) + " " + "dct:issued '" +
+                 datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%fZ") + "'^^xsd:dateTime .")
     # item
     if str(row['de']) != 'nan':
-        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['de']).replace('\'', '`') + "'@de .")
-        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" + str(row['de']).replace('\'', '`') + "'@de .")
+        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" +
+                     str(row['de']).replace('\'', '`') + "'@de .")
+        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" +
+                     str(row['de']).replace('\'', '`') + "'@de .")
     if str(row['en']) != 'nan':
-        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['en']).replace('\'', '`') + "'@en .")
-        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" + str(row['en']).replace('\'', '`') + "'@en .")
+        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" +
+                     str(row['en']).replace('\'', '`') + "'@en .")
+        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" +
+                     str(row['en']).replace('\'', '`') + "'@en .")
     if str(row['dk']) != 'nan':
-        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['dk']).replace('\'', '`') + "'@dk .")
-        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" + str(row['dk']).replace('\'', '`') + "'@dk .")
+        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" +
+                     str(row['dk']).replace('\'', '`') + "'@dk .")
+        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" +
+                     str(row['dk']).replace('\'', '`') + "'@dk .")
     if str(row['nl']) != 'nan':
-        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['nl']).replace('\'', '`') + "'@nl .")
-        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" + str(row['nl']).replace('\'', '`') + "'@nl .")
+        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" +
+                     str(row['nl']).replace('\'', '`') + "'@nl .")
+        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" +
+                     str(row['nl']).replace('\'', '`') + "'@nl .")
     if str(row['fr']) != 'nan':
-        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['fr']).replace('\'', '`') + "'@fr .")
-        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" + str(row['fr']).replace('\'', '`') + "'@fr .")
+        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" +
+                     str(row['fr']).replace('\'', '`') + "'@fr .")
+        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" +
+                     str(row['fr']).replace('\'', '`') + "'@fr .")
     if str(row['it']) != 'nan':
-        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['it']).replace('\'', '`') + "'@it .")
-        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" + str(row['it']).replace('\'', '`') + "'@it .")
+        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" +
+                     str(row['it']).replace('\'', '`') + "'@it .")
+        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" +
+                     str(row['it']).replace('\'', '`') + "'@it .")
     if str(row['es']) != 'nan':
-        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['es']).replace('\'', '`') + "'@es .")
-        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" + str(row['es']).replace('\'', '`') + "'@es .")
+        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" +
+                     str(row['es']).replace('\'', '`') + "'@es .")
+        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" +
+                     str(row['es']).replace('\'', '`') + "'@es .")
     if str(row['pl']) != 'nan':
-        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['pl']).replace('\'', '`') + "'@pl .")
-        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" + str(row['pl']).replace('\'', '`') + "'@pl .")
+        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" +
+                     str(row['pl']).replace('\'', '`') + "'@pl .")
+        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" +
+                     str(row['pl']).replace('\'', '`') + "'@pl .")
     if str(row['gr']) != 'nan':
-        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['gr']).replace('\'', '`') + "'@gr .")
-        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" + str(row['gr']).replace('\'', '`') + "'@gr .")
+        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" +
+                     str(row['gr']).replace('\'', '`') + "'@gr .")
+        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" +
+                     str(row['gr']).replace('\'', '`') + "'@gr .")
     if str(row['he']) != 'nan':
-        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['he']).replace('\'', '`') + "'@he .")
-        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" + str(row['he']).replace('\'', '`') + "'@he .")
+        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" +
+                     str(row['he']).replace('\'', '`') + "'@he .")
+        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" +
+                     str(row['he']).replace('\'', '`') + "'@he .")
     # prov-o
-    lines.append("nomt:" + str(thisid) + " " + "prov:wasAttributedTo" + " nomt:ImportPythonScript .")
-    lines.append("nomt:" + str(thisid) + " " + "prov:wasDerivedFrom" + " <http://www.wikidata.org/entity/Q115264680> .")
-    lines.append("nomt:" + str(thisid) + " " + "prov:wasGeneratedBy" + " nomt:activity_" + str(thisid) + " .")
-    lines.append("nomt:activity_" + str(thisid) + " " + "rdf:type" + " <http://www.w3.org/ns/prov#Activity> .")
-    lines.append("nomt:activity_" + str(thisid) + " " + "prov:startedAtTime '" + starttime + "'^^xsd:dateTime .")
-    lines.append("nomt:activity_" + str(thisid) + " " + "prov:endedAtTime '" + datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%fZ") + "'^^xsd:dateTime .")
-    lines.append("nomt:activity_" + str(thisid) + " " + "prov:wasAssociatedWith" + " nomt:ImportPythonScript .")
+    lines.append("nomt:" + str(thisid) + " " +
+                 "prov:wasAttributedTo" + " nomt:ImportPythonScript .")
+    lines.append("nomt:" + str(thisid) + " " + "prov:wasDerivedFrom" +
+                 " <http://www.wikidata.org/entity/Q115264680> .")
+    lines.append("nomt:" + str(thisid) + " " +
+                 "prov:wasGeneratedBy" + " nomt:activity_" + str(thisid) + " .")
+    lines.append("nomt:activity_" + str(thisid) + " " +
+                 "rdf:type" + " <http://www.w3.org/ns/prov#Activity> .")
+    lines.append("nomt:activity_" + str(thisid) + " " +
+                 "prov:startedAtTime '" + starttime + "'^^xsd:dateTime .")
+    lines.append("nomt:activity_" + str(thisid) + " " + "prov:endedAtTime '" +
+                 datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%fZ") + "'^^xsd:dateTime .")
+    lines.append("nomt:activity_" + str(thisid) + " " +
+                 "prov:wasAssociatedWith" + " nomt:ImportPythonScript .")
     lines.append("")
 
 # read csv file
@@ -135,7 +183,8 @@ data2 = pd.read_csv(
     file_in2,
     encoding='utf-8',
     sep='|',
-    usecols=['id', 'navisid', 'de', 'en', 'dk', 'nl', 'fr', 'it', 'es', 'pl', 'gr', 'he', 'origindesc', 'fk_id_parent']
+    usecols=['id', 'navisid', 'de', 'en', 'dk', 'nl', 'fr', 'it',
+             'es', 'pl', 'gr', 'he', 'origindesc', 'fk_id_parent']
 )
 print(data2.info())
 
@@ -149,56 +198,96 @@ for index, row in data2.iterrows():
     thisid = int(str(row['id'])) + 2000
     fkid = int(str(row['fk_id_parent'])) + 1000
     lines.append("nomt:" + str(thisid) + " " + "rdf:type" + " skos:Concept .")
-    lines.append("nomt:" + str(fkid) + " " + "skos:narrower " + "nomt:" + str(thisid) + " .")
-    lines.append("nomt:" + str(thisid) + " " + "skos:broader " + "nomt:" + str(fkid) + " .")
-    lines.append("nomt:" + str(thisid) + " " + "skos:inScheme" + " nomt:cs01 .")
-    lines.append("nomt:" + str(thisid) + " " + "skos:note" + " 'This is a Concept of NAVIS I or NAVIS II.'@en .")
+    lines.append("nomt:" + str(thisid) + " " + "rdf:type" + " rdfs:Class .")
+    lines.append("nomt:" + str(fkid) + " " + "skos:narrower " +
+                 "nomt:" + str(thisid) + " .")
+    lines.append("nomt:" + str(thisid) + " " +
+                 "skos:broader " + "nomt:" + str(fkid) + " .")
+    lines.append("nomt:" + str(fkid) + " " +
+                 "rdfs:subClassOf " + "nomt:" + str(thisid) + " .")
+    lines.append("nomt:" + str(thisid) + " " +
+                 "skos:inScheme" + " nomt:cs01 .")
+    lines.append("nomt:" + str(thisid) + " " + "skos:note" +
+                 " 'This is a Concept of NAVIS I or NAVIS II.'@en .")
     # metadata
-    lines.append("nomt:" + str(thisid) + " " + "cc:license" + " <" + "http://creativecommons.org/licenses/by-sa/4.0/" + "> .")
-    lines.append("nomt:" + str(thisid) + " " + "cc:attributionURL" + " <" + "http://www.wikidata.org/entity/Q115264627" + "> .")
-    lines.append("nomt:" + str(thisid) + " " + "cc:attributionName" + " '" + "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des RGZM" + "' .")
-    lines.append("nomt:" + str(thisid) + " " + "dct:publisher" + " <" + "http://www.wikidata.org/entity/Q115264627" + "> .")
-    lines.append("nomt:" + str(thisid) + " " + "dct:identifier" + " <" + "http://data.archaeology.link/data/maritimethesaurus/" + "> .")
-    lines.append("nomt:" + str(thisid) + " " + "dct:issued '" + datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%fZ") + "'^^xsd:dateTime .")
+    lines.append("nomt:" + str(thisid) + " " + "cc:license" + " <" +
+                 "http://creativecommons.org/licenses/by-sa/4.0/" + "> .")
+    lines.append("nomt:" + str(thisid) + " " + "cc:attributionURL" +
+                 " <" + "http://www.wikidata.org/entity/Q115264627" + "> .")
+    lines.append("nomt:" + str(thisid) + " " + "cc:attributionName" + " '" +
+                 "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des RGZM" + "' .")
+    lines.append("nomt:" + str(thisid) + " " + "dct:publisher" +
+                 " <" + "http://www.wikidata.org/entity/Q115264627" + "> .")
+    lines.append("nomt:" + str(thisid) + " " + "dct:identifier" + " <" +
+                 "http://data.archaeology.link/data/maritimethesaurus/" + "> .")
+    lines.append("nomt:" + str(thisid) + " " + "dct:issued '" +
+                 datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%fZ") + "'^^xsd:dateTime .")
     # item
     if str(row['de']) != 'nan':
-        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['de']).replace('\'', '`') + "'@de .")
-        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" + str(row['de']).replace('\'', '`') + "'@de .")
+        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" +
+                     str(row['de']).replace('\'', '`') + "'@de .")
+        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" +
+                     str(row['de']).replace('\'', '`') + "'@de .")
     if str(row['en']) != 'nan':
-        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['en']).replace('\'', '`') + "'@en .")
-        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" + str(row['en']).replace('\'', '`') + "'@en .")
+        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" +
+                     str(row['en']).replace('\'', '`') + "'@en .")
+        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" +
+                     str(row['en']).replace('\'', '`') + "'@en .")
     if str(row['dk']) != 'nan':
-        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['dk']).replace('\'', '`') + "'@dk .")
-        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" + str(row['dk']).replace('\'', '`') + "'@dk .")
+        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" +
+                     str(row['dk']).replace('\'', '`') + "'@dk .")
+        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" +
+                     str(row['dk']).replace('\'', '`') + "'@dk .")
     if str(row['nl']) != 'nan':
-        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['nl']).replace('\'', '`') + "'@nl .")
-        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" + str(row['nl']).replace('\'', '`') + "'@nl .")
+        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" +
+                     str(row['nl']).replace('\'', '`') + "'@nl .")
+        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" +
+                     str(row['nl']).replace('\'', '`') + "'@nl .")
     if str(row['fr']) != 'nan':
-        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['fr']).replace('\'', '`') + "'@fr .")
-        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" + str(row['fr']).replace('\'', '`') + "'@fr .")
+        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" +
+                     str(row['fr']).replace('\'', '`') + "'@fr .")
+        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" +
+                     str(row['fr']).replace('\'', '`') + "'@fr .")
     if str(row['it']) != 'nan':
-        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['it']).replace('\'', '`') + "'@it .")
-        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" + str(row['it']).replace('\'', '`') + "'@it .")
+        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" +
+                     str(row['it']).replace('\'', '`') + "'@it .")
+        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" +
+                     str(row['it']).replace('\'', '`') + "'@it .")
     if str(row['es']) != 'nan':
-        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['es']).replace('\'', '`') + "'@es .")
-        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" + str(row['es']).replace('\'', '`') + "'@es .")
+        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" +
+                     str(row['es']).replace('\'', '`') + "'@es .")
+        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" +
+                     str(row['es']).replace('\'', '`') + "'@es .")
     if str(row['pl']) != 'nan':
-        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['pl']).replace('\'', '`') + "'@pl .")
-        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" + str(row['pl']).replace('\'', '`') + "'@pl .")
+        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" +
+                     str(row['pl']).replace('\'', '`') + "'@pl .")
+        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" +
+                     str(row['pl']).replace('\'', '`') + "'@pl .")
     if str(row['gr']) != 'nan':
-        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['gr']).replace('\'', '`') + "'@gr .")
-        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" + str(row['gr']).replace('\'', '`') + "'@gr .")
+        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" +
+                     str(row['gr']).replace('\'', '`') + "'@gr .")
+        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" +
+                     str(row['gr']).replace('\'', '`') + "'@gr .")
     if str(row['he']) != 'nan':
-        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" + str(row['he']).replace('\'', '`') + "'@he .")
-        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" + str(row['he']).replace('\'', '`') + "'@he .")
+        lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" +
+                     str(row['he']).replace('\'', '`') + "'@he .")
+        lines.append("nomt:" + str(thisid) + " " + "rdfs:label '" +
+                     str(row['he']).replace('\'', '`') + "'@he .")
     # prov-o
-    lines.append("nomt:" + str(thisid) + " " + "prov:wasAttributedTo" + " nomt:ImportPythonScript .")
-    lines.append("nomt:" + str(thisid) + " " + "prov:wasDerivedFrom" + " <http://www.wikidata.org/entity/Q115264680> .")
-    lines.append("nomt:" + str(thisid) + " " + "prov:wasGeneratedBy" + " nomt:activity_" + str(thisid) + " .")
-    lines.append("nomt:activity_" + str(thisid) + " " + "rdf:type" + " <http://www.w3.org/ns/prov#Activity> .")
-    lines.append("nomt:activity_" + str(thisid) + " " + "prov:startedAtTime '" + starttime + "'^^xsd:dateTime .")
-    lines.append("nomt:activity_" + str(thisid) + " " + "prov:endedAtTime '" + datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%fZ") + "'^^xsd:dateTime .")
-    lines.append("nomt:activity_" + str(thisid) + " " + "prov:wasAssociatedWith" + " nomt:ImportPythonScript .")
+    lines.append("nomt:" + str(thisid) + " " +
+                 "prov:wasAttributedTo" + " nomt:ImportPythonScript .")
+    lines.append("nomt:" + str(thisid) + " " + "prov:wasDerivedFrom" +
+                 " <http://www.wikidata.org/entity/Q115264680> .")
+    lines.append("nomt:" + str(thisid) + " " +
+                 "prov:wasGeneratedBy" + " nomt:activity_" + str(thisid) + " .")
+    lines.append("nomt:activity_" + str(thisid) + " " +
+                 "rdf:type" + " <http://www.w3.org/ns/prov#Activity> .")
+    lines.append("nomt:activity_" + str(thisid) + " " +
+                 "prov:startedAtTime '" + starttime + "'^^xsd:dateTime .")
+    lines.append("nomt:activity_" + str(thisid) + " " + "prov:endedAtTime '" +
+                 datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%fZ") + "'^^xsd:dateTime .")
+    lines.append("nomt:activity_" + str(thisid) + " " +
+                 "prov:wasAssociatedWith" + " nomt:ImportPythonScript .")
     lines.append("")
 
 #####################
@@ -235,7 +324,8 @@ for x in range(1, int(files) + 1):
     filename = dir_path.replace("\\py", "\\data") + "\\" + filename
     file = codecs.open(filename, "w", "utf-8")
     file.write("# create triples from " + csv + " and " + csv2 + " \r\n")
-    file.write("# on " + datetime.datetime.now().strftime("%Y-%m-%d %H:%M") + "\r\n\r\n")
+    file.write(
+        "# on " + datetime.datetime.now().strftime("%Y-%m-%d %H:%M") + "\r\n\r\n")
     file.write(prefixes)
     i = f
     for i, line in enumerate(lines):
