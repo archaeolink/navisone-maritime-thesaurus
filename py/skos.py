@@ -292,9 +292,9 @@ for index, row in data2.iterrows():
     if str(row['gettyaat']) != 'nan':
         if str(row['gettyaatrelationtype']) != 'nan':
             lines.append("nomt:" + str(thisid) + " " + str(row['gettyaatrelationtype']) + " " +
-                         "aat:" + str(row['gettyaat']) + " .")
+                         "aat:" + str(int(row['gettyaat'])) + " .")
             lines.append("nomt:" + str(thisid) + " " + "lado:gettyaatMatch" + " " +
-                         "aat:" + str(row['gettyaat']) + " .")
+                         "aat:" + str(int(row['gettyaat'])) + " .")
     if str(row['wikidata']) != 'nan':
         if str(row['wikidatarelationtype']) != 'nan':
             lines.append("nomt:" + str(thisid) + " " + str(row['wikidatarelationtype']) + " " +
