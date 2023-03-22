@@ -40,11 +40,11 @@ id|navisid|de|en|es|it|nl|dk|gr|fr|pl|he|origindesc|fk_id_parent
 509|2242|Typ Blussus|Blussus|tipo Blussus|Blussus|Blussus|Blussus|Τύπος “Blussus”|Blussus|Blussus|Blussus|tblShipType|4
 510|2243|Unbekannter Schiffstyp|Undefined ship type|tipo desconocido|Tipo navale indefinito|Onbekend scheepstype|Udefineret skibstype|Ακαθόριστος Τύπος|Type du bateau inconnu|Nieznany typ|סוג כלי שיט לא מוגדר; טיפוס לא מוגדר|tblShipType|4
 511|2244|Typ Neumagen|Neumagen|tipo Neumagen|Neumagen|Neumagen|Neumagen|Tύπος “Neumagen”|Neumagen|Neumagen|Neumagen|tblShipType|4
-512|2245|Navis oneraria|Navis oneraria|navis oneraria|Navis oneraria|Navis oneraria|Navis oneraria|"Tύπος '"Oneraria'""|Navis oneraria|Navis oneraria|Navis oneraria|tblShipType|4
-513|2246|Navis caudicaria|Navis caudicaria|navis caudicaria|Navis caudicaria|Navis caudicaria|Navis caudicaria|"Tύπος '"Caudicaria'""|Navis caudicaria|Navis caudicaria|Navis caudicaria|tblShipType|4
+512|2245|Navis oneraria|Navis oneraria|navis oneraria|Navis oneraria|Navis oneraria|Navis oneraria|Tύπος Oneraria|Navis oneraria|Navis oneraria|Navis oneraria|tblShipType|4
+513|2246|Navis caudicaria|Navis caudicaria|navis caudicaria|Navis caudicaria|Navis caudicaria|Navis caudicaria|Tύπος Caudicaria|Navis caudicaria|Navis caudicaria|Navis caudicaria|tblShipType|4
 500|2225|Getreidelt|Towed|a la sirga|A traino|Gejaagd|Trukket|Ρυμουλκούμενο|Tiré|Holowanie|נגרר|tblPropulsion|3
 515|2248|Langschiff|Longship|navis lunga|Nave lunga|Longship|Langskib|Μακρό Πλοίο|Bateau long|Łódź wikingów|ספינה ארוכה; ספינת משוטים|tblShipType|4
-488|2201|Militärfahrzeug|Military vessel|buque de guerra|Imbarcazione militare|Oorlogsschip|Militærfart&øj|Πολεμικό|Navire de guerre|Jednostka bojowa|אוניית מלחמה|tblShipFunction|1
+488|2201|Militärfahrzeug|Military vessel|buque de guerra|Imbarcazione militare|Oorlogsschip|Militærfartøj|Πολεμικό|Navire de guerre|Jednostka bojowa|אוניית מלחמה|tblShipFunction|1
 495|2213|Unbekannt|Unknown operating environment|uso desconocido|Ambiente operativo sconosciuto|Onbekende vaaromgeving|Ukendt anvendelsesområde|Άγνωστο|Environnement d´operation inconnu|Nieznany obszar działania|תפעול בסביבה לא ידועה|tblOperatingEnvironment|2
 498|2223|Gepaddelt|Paddled|a canalete|A pagaia|Gepeddeld|Padlet|Κωπήλατο (ταρσοπλοΐα)|À pagaye|Wiosłowy z ręki|דיווש|tblPropulsion|3
 520|2253|Typ Portus|Portus|tipo portus|Portus|Portus|Portus|Τύπος “Portus”|Portus|Portus|Portus|tblShipType|4
@@ -62,7 +62,7 @@ id|navisid|de|en|es|it|nl|dk|gr|fr|pl|he|origindesc|fk_id_parent
 524|2401|Kimm (Rund)|Bilge|pantoque|Ginocchio|Kim|Kiming|Σεντίνα|Bouchain|Obło, zęza|שיפולים|tblDictionaryHULL|6
 685|4717|Flickung|repair|reparacion|riparazione|reparatie|reparation|η επισκευή|réparation|naprawa|NULL|tblWoordenboek|9
 686|4721|Anriss|setting out mark|marcas|segno di costruzione|markering|opridsningsmærker|το σημάδεμα|marque|znaki zewnetrzne|NULL|tblWoordenboek|9
-687|4722|Werkzeugspur|tool mark|marca de herramienta|segno di lavorazione|bewerkingsspoor|værktøjsspor|ίχνος εργαλείου|trace d'outil|slady obróbki|NULL|tblWoordenboek|9
+687|4722|Werkzeugspur|tool mark|marca de herramienta|segno di lavorazione|bewerkingsspoor|værktøjsspor|ίχνος εργαλείου|trace doutil|slady obróbki|NULL|tblWoordenboek|9
 688|4731|Holznagel|treenail|cabilla|cavicchio|houten pen (groot)|trænagle|η καβίλια,ο γόμφος|gournable (cheville)|kolek drewniany|NULL|tblWoordenboek|9
 689|4732|Rute|withy|mimbre|giunco|twijg|vidje|το βούρλο|osier|NULL|NULL|tblWoordenboek|9
 690|4704|Kimmholz|chine block|curva del quiebro|blocco della curvatura della carena|l-vormige kim|kimingsplanke|η καμπύλη της καρένας|cornière de bouchain|łańcuch blok|NULL|tblWoordenboek|6
@@ -102,7 +102,7 @@ id|navisid|de|en|es|it|nl|dk|gr|fr|pl|he|origindesc|fk_id_parent
 492|2205|Frachter|Transport vessel|buque mercantil o transporte|Imbarcazione da trasporto|Transportschip|Transportfartøj|Λάντζα, Μαούνα|Navire transport|Jednostka transportowa|ספינת הובלה|tblShipFunction|1
 506|2231|Getreidelt und gesegelt|Towed and sailed|a la sirga y a vela|A traino e a vela|Gejaagd en gezeild|Trukket og sejlet|Ρυμουλκούμενο και Ιστιοφόρο|Tiré et à voile|Holowanie i żaglowanie|נגרר ומושט|tblPropulsion|3
 507|2232|Gerudert, gestakt und gesegelt|Oared, punted and sailed|a remo, a pértiga y a vela|A remi, a spinta e a vela|Geroeid, geboomd en gezeild|Roet, staget og sejlet|Κωπήλατο, με Κοντάρι  και Ιστιοφόρο|À rames, à la perche et à voile|Wiosłowy, na pych i żaglowy|חתור, דווש ומושט|tblPropulsion|3
-536|2413|Kaffe|Swim-Head|popa / proa a rampa|Slancio|Heve|Kaff|Swim-Head|Élancement|Skrajnik dziobowy|"'"Swimhead'""|tblDictionaryHULL|6
+536|2413|Kaffe|Swim-Head|popa / proa a rampa|Slancio|Heve|Kaff|Swim-Head|Élancement|Skrajnik dziobowy|Swimhead|tblDictionaryHULL|6
 654|4506|Kraweel (Beplankung)|Carvel build (planking)|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|tblLookupConstruction|9
 546|2424|Stevendekoration|Figurehead|decoración de roda|Polena|Boegbeeld|Stævnfigur|Ακρόπρωρον|Figure De Proue|Galion, figura dziobowa|גילוף החרטום; עיטור חרטום|tblDictionaryHULL|6
 634|2553|Artillerie|Artillery|artellería|Artiglieria|Artillerie|Artelleri|Πυροβολικό|NULL|Artyleria|ארטילריה, חיל התותחנים|tblDictionaryWARFARE|15
@@ -112,7 +112,7 @@ id|navisid|de|en|es|it|nl|dk|gr|fr|pl|he|origindesc|fk_id_parent
 573|2461|Nut und Feder|Mortice and Tenon|a rebajo / Unión a Espiga|Mortasa e Tenone|Mortice and Tenon|Tap-i-hul-samling|Μόρσα και Τένοντες|Mortice and Tenon|Mortice and Tenon|Mortice and Tenon|tblDictionaryCONSTRUCTIONALFEATURES|9
 534|2411|Achtersteven|Sternpost|codaste popel|Dritto/Ruota di poppa|Achtersteven|Agterstævn|Ποδόστημα|Étambot|Tylnica|מזוזה - ירכתים|tblDictionaryHULL|6
 502|2227|Gerudert und gesegelt|Oared and sailed|a remo y a vela|A remi e a vela|Geroeid en gezeild|Roet og sejlet|Κωπήλατο και Ιστιοφόρο|À rames et à voile|Wiosłowo-żaglowy|חתור ומושט|tblPropulsion|3
-532|2409|Schale|Shell|forro|Guscio|Huid|Skal|Κέλυφος|Bordé|Skorupa|"'"קליפה'"; דפנה"|tblDictionaryHULL|6
+532|2409|Schale|Shell|forro|Guscio|Huid|Skal|Κέλυφος|Bordé|Skorupa|קליפה; דפנה|tblDictionaryHULL|6
 503|2228|Getreidelt und gepaddelt|Towed and paddled|a la sirga y a canalete|A traino e a pagaia|Gejaagd en gepeddeld|Trukket og padlet|Ρυμουλκούμενο και Κωπήλατο (ταρσοπλοϊα)|Tiré et à pagayé|Holowanie i wiosłowanie z ręki|נגרר ודיווש|tblPropulsion|3
 558|2439|Spant|Frame|cuaderna|Ordinata|Spant|Spant|Νομέας, Στραβόξυλο|Couple|Rama wręgowa|צלע|tblDictionaryINTERNALCONSTRUCTION|7
 561|2442|Halbspant|Half Frame|media cuaderna|Semiordinata|Halfspant|Halvspant|Σκέλια|Demi-Couple|Półwręg|חצי צלע|tblDictionaryINTERNALCONSTRUCTION|7
@@ -129,7 +129,7 @@ id|navisid|de|en|es|it|nl|dk|gr|fr|pl|he|origindesc|fk_id_parent
 563|2444|Seitenspant|Side Frame|ligazón de revés|Scalmo|Zijspant|Sidespant|Πλευρικοί Νομείς|Couple De Côté|Wręg burtowy|מסגרת צד|tblDictionaryINTERNALCONSTRUCTION|7
 543|2421|Achterschiff|Aft|a popa|Poppavia|Achterschip|Agterskib|Πρυμναίο Τμήμα του Πλοίου|Poupè Arrière Du Navire|Rufa|אחורי|tblDictionaryHULL|6
 562|2443|Dollbaum|Inwale|galón interno de la regala|Capo di banda interno|Binnenboord|Essingstringer|Λώρος, Λούρος|Préceinte Interne|Wzdłużnik wewnętrzny|לזבזת עליונה פנימית|tblDictionaryINTERNALCONSTRUCTION|7
-560|2441|Seitensteven|Side Stempost|roda lateral|Ruota di prua laterale|Zijsteven|Sidestævn|Πλαϊνό της Πλώρης|Proue Latérale|Dziobnica zewnętrzna|"'"Side Stempost'""|tblDictionaryINTERNALCONSTRUCTION|7
+560|2441|Seitensteven|Side Stempost|roda lateral|Ruota di prua laterale|Zijsteven|Sidestævn|Πλαϊνό της Πλώρης|Proue Latérale|Dziobnica zewnętrzna|Side Stempost|tblDictionaryINTERNALCONSTRUCTION|7
 596|2491|Segel (Lateiner)|Sail (Lateen)|vela latina|Vela (Latina)|Zeil (Latijn)|Sejl (Latiner)|Πανί (λατίνι)|Voile Latine|Żagiel łaciński|מפרש לטיני|tblDictionarySAILINGGEAR|10
 635|2554|Schild|Shield|escudo|Scudo|Schild|Skjold|Ασπίδα|NULL|Tarcza|מגן|tblDictionaryWARFARE|15
 572|2455|Laufplanke|Gangway|Pasadizo|Passerella|Loopplank|Gangbro|Μαδερόσκαλα|NULL|Furta burtowa|כבש|tblDictionaryDECKS|8
@@ -152,7 +152,7 @@ id|navisid|de|en|es|it|nl|dk|gr|fr|pl|he|origindesc|fk_id_parent
 717|60002|Küste|Coastal|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|n1.oe|2
 521|2254|Papyrusboot|Papyrus boat|nave de papiro|Papiro|Papyrus boot|Papyrus boot|Παπυρένιο Σκάφος|Bateau en papyrus|Statki z papirusu|סירת פפירוס|tblShipType|4
 548|2426|Bugsporn|Cutwater|espolón|Tagliamare|Spoor|Krigen|Κυματόμος, Θαλασσοτόμος|NULL|Taran dziobowy|חותך מים|tblDictionaryHULL|6
-549|2427|Spiegel|Mirror|popa de espejo|Specchio|Spiegel|Spejl.|Καθρέφτης|Miroir|Odbicie|" '"מראה'""|tblDictionaryHULL|6
+549|2427|Spiegel|Mirror|popa de espejo|Specchio|Spiegel|Spejl.|Καθρέφτης|Miroir|Odbicie| מראה|tblDictionaryHULL|6
 550|2431|Wrange|Floor Timber|varenga|Madiere|Legger|Bundstok|Έδρα, Στρώση|Varangue|Dennik|חלק של צלע|tblDictionaryINTERNALCONSTRUCTION|7
 554|2435|Schott|Bulkhead|mamparo|Paratia|Schot|Skot|Φράκτες, Μπουλμές|Cloison|Gródź|מחיצה; קיר מחיצה מפריד|tblDictionaryINTERNALCONSTRUCTION|7
 555|2436|Wegerung|Ceiling|ferro interior / vagras|Fasciame interno|Wegering|Garnering|Εντερόνεια, Φόδρο|Valgrage|Potnica, szalunek|רצפה|tblDictionaryINTERNALCONSTRUCTION|7
@@ -180,22 +180,22 @@ id|navisid|de|en|es|it|nl|dk|gr|fr|pl|he|origindesc|fk_id_parent
 576|2464|Nagel|Nail|clavo|Chiodo|Spijker|Spiger, Søm|Καρφί|Clou|Gwóźdź|מסמר|tblDictionaryCONSTRUCTIONALFEATURES|9
 587|2482|Mast (Hauptmast)|Mast (Main)|palo (mayor)|Albero (Maestro)|Mast|Mast|Ιστός, Κατάρτι|Mât|Maszt główny|תורן ראשי|tblDictionarySAILINGGEAR|10
 575|2463|Kraweel Beplankt|Carvel Build|construcción a tope|Costruzione a paro|Gladboordig, Karveel|Kravel bygget|Πέτσωμα Λείο, Κρόταφο με Κρόταφο|Construction à Franc-Bord|Poszycie na styk karawelowe|בניה בלוחות הנצמדים זה לזה|tblDictionaryCONSTRUCTIONALFEATURES|9
-590|2485|Mastspur|Mast Step|carlinga del palo|Scassa dell'albero|Mastspoor|Mastespor|Υποπτερνίς, Σκάτσα|Emplanture De Mât|Gniazdo masztu|בסיס התורן|tblDictionarySAILINGGEAR|10
+590|2485|Mastspur|Mast Step|carlinga del palo|Scassa dellalbero|Mastspoor|Mastespor|Υποπτερνίς, Σκάτσα|Emplanture De Mât|Gniazdo masztu|בסיס התורן|tblDictionarySAILINGGEAR|10
 608|2503|Mastfisch|Mast Fish|fogonadura del palo|Albero (Pesce)|Mastvis|Mastfisk|Ιστοπέδη|Fixation du mât|Masztowy wspornik|מזלג תורן|tblDictionarySAILINGGEAR|10
 583|2471|Bohrung|Stitch Hole|ojal|Foro per cucitura|Stikselgat|Syhul|Οπή της Ραφής|Trou De Piqûre|Otwór do zszywania|חור תפירה|tblDictionaryCONSTRUCTIONALFEATURES|9
 588|2483|Mastbalken|Mast Beam|bao del palo|Baglio della albero|Zeilbalk|Mastebjælke|Ζυγό του Ιστού|Barrot de Mât|Belka masztowa|קורת התורן|tblDictionarySAILINGGEAR|10
-591|2486|Mastducht|Mast Thwart|bancada del palo|Banco della albero|Mastbank|Mastetofte|Πάγκος του Άλμπουρου|Banc De Mât|Ława masztowa|"התורן '"ספסל'" תורן; קורת רוחב לתמיכת"|tblDictionarySAILINGGEAR|10
+591|2486|Mastducht|Mast Thwart|bancada del palo|Banco della albero|Mastbank|Mastetofte|Πάγκος του Άλμπουρου|Banc De Mât|Ława masztowa|התורן ספסל תורן; קורת רוחב לתמיכת|tblDictionarySAILINGGEAR|10
 592|2487|Mastspant|Mast Frame|cuaderna del palo|Ordinata della albero|Mastspant|Mastespant|Πλαίσιο του Ιστού|Couple De Mât|Rama masztowa|מסגרת התורן|tblDictionarySAILINGGEAR|10
 578|2466|Schäftung|Scarf|escarpe|Palella, Giunto|Las|Lask|Παρέλα, Σόκορα|Écart|Złącze|מחבר|tblDictionaryCONSTRUCTIONALFEATURES|9
 616|2521|Duchtstütze|Thwart Stanchion|puntal de bancada|Puntello del sedile|Roeibank-Stut|Toftestander|Υπόσελμα|Montant De Banc De Nage|Podpora ławki|זקף ספסל|tblDictionaryROWINGANDPADDLING|12
 618|2523|Ruderducht (Sitz)|Thwart|bancada|Sedile|Roeibank|Tofte|Σέλμα, Πάγκος|Banc De Nage|Ława|ספסל|tblDictionaryROWINGANDPADDLING|12
-621|2526|Paddel|Paddle|pala|Pagaia|Peddel|Padle|"Κουπί '"φτυάρι'""|Pagaye|Wiosło krótkie (pagaj)|משוט דיווש|tblDictionaryROWINGANDPADDLING|12
+621|2526|Paddel|Paddle|pala|Pagaia|Peddel|Padle|Κουπί φτυάρι|Pagaye|Wiosło krótkie (pagaj)|משוט דיווש|tblDictionaryROWINGANDPADDLING|12
 622|2527|Keipe|Rowlock|chumacera de remo|Scalmo|Roeidol|Kejpe|Στήριγξ, Φουρκαδέλα, Σκαλμός|-Dame De Nage|Dulka|מלגז|tblDictionaryROWINGANDPADDLING|12
 625|2536|Stakstange|Punting Pole|percha para fincar|Pertica|Vaarboom|Stage|Κουρίτα, Πριάρι|Perche|Tyczka pychowa|מוט משיט; מוט דחיפה|tblDictionaryPUNTINGANDTOWING|13
-630|2545|Poller|Bollard|bita|Bitta|Bolder|Pullert|Δέστρα Πρυμνησίων, Μπίντα|Bitte|Pachołek|"'"זקף; '"פיתה"|tblDictionaryHANDLING|14
+630|2545|Poller|Bollard|bita|Bitta|Bolder|Pullert|Δέστρα Πρυμνησίων, Μπίντα|Bitte|Pachołek|זקף; פיתה|tblDictionaryHANDLING|14
 626|2541|Block|Pulley|polea|Puleggia|Blok|Blok|Τροχαλία, Μακαράς|Poulie|Blok| מגליל; גלגלת|tblDictionaryHANDLING|14
 628|2543|Winde|Winch|cabestrante o molinete|Cabestrano|Lier|Vinde|Εργάτης|Treuil|Wciągarka|כנן; מנוף|tblDictionaryHANDLING|14
-673|4525|Schalenbauweise|Shell first|A casco|Scafo portante|Huid eerst|Skalbygget|NULL|Bordé d'abord|NULL|NULL|tblLookupConstruction|9
+673|4525|Schalenbauweise|Shell first|A casco|Scafo portante|Huid eerst|Skalbygget|NULL|Bordé dabord|NULL|NULL|tblLookupConstruction|9
 629|2544|Anker|Anchor|ancla|Ancora|Anker|Anker|Άγκυρα|Ancre|Kotwica|עוגן|tblDictionaryHANDLING|14
 638|2561|Kalfat|Caulking|calafateado|Calafatura|Breeuwsel|Kalfatring|Διάναξη, Καλαφάτισμα|Calfatage|Uszczelnienie|איטום|tblDictionarySURFACETREATMENT|16
 640|2563|Dekoration|Decoration|decoración|Decorazione|Decoratie|Dekoration|Διακόσμηση|Decoration|Dekoracja|קישוט; עיטור|tblDictionarySURFACETREATMENT|16
