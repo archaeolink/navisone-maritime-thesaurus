@@ -54,6 +54,19 @@ lineNo = 2
 outStr = ""
 lines = []
 
+# general metadata
+
+lines.append("nomt:ImportPythonScript" + " " +
+             "rdf:type" + " " + "prov:SoftwareAgent .")
+lines.append("nomt:ImportPythonScript" + " " + "rdfs:seeAlso" + " " +
+             "<https://github.com/archaeolink/navisone-maritime-thesaurus> .")
+lines.append("nomt:ImportPythonScript" + " " + "dct:source" + " " +
+             "<https://github.com/archaeolink/navisone-maritime-thesaurus> .")
+lines.append("nomt:ImportPythonScript" + " " + "rdfs:seeAlso" + " " +
+             "<https://github.com/archaeolink/navisone-maritime-thesaurus/blob/main/py/skos.py> .")
+lines.append("nomt:ImportPythonScript" + " " + "dct:source" + " " +
+             "<https://github.com/archaeolink/navisone-maritime-thesaurus/blob/main/py/skos.py> .")
+
 # create skos:Concept Scheme
 
 lines.append("nomt:" + "cs01" + " " + "rdf:type" + " skos:ConceptScheme .")
