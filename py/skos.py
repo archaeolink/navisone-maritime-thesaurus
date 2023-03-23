@@ -6,7 +6,7 @@ __version__ = "1.0"
 __maintainer__ = "Florian Thiery"
 __email__ = "florian.thiery@leiza.de"
 __status__ = "beta"
-__update__ = "2023-03-22"
+__update__ = "2023-03-23"
 
 # import dependencies
 import uuid
@@ -63,28 +63,31 @@ lines.append(
     "<http://creativecommons.org/licenses/by-sa/4.0/> rdfs:label 'CC BY-SA 4.0'@en .")
 lines.append("nomt:" + "cs01" + " " + "cc:license" + " <" +
              "http://creativecommons.org/licenses/by-sa/4.0/" + "> .")
-lines.append("nomt:" + "cs01" + " " + "cc:attributionURL" + " <" +
-             "http://www.wikidata.org/entity/Q115264627" + "> .")
+lines.append("nomt:" + "cs01" + " " +
+             "cc:attributionURL" + " wd:Q115264627" + " .")
 lines.append("nomt:" + "cs01" + " " + "cc:attributionName" + " '" +
-             "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des LEIZA" + "' .")
+             "Arbeitsbereich Wissenschaftliche IT, Digitale Plattformen und Tools des LEIZA" + "' .")
 lines.append("nomt:" + "cs01" + " " + "dct:title" +
              " 'NAVISone Maritime Thesaurus' .")
 lines.append("nomt:" + "cs01" + " " + "rdfs:label" +
              " 'NAVISone Maritime Thesaurus' .")
-lines.append("nomt:" + "cs01" + " " + "dct:identifier" + " <" +
-             "http://www.wikidata.org/entity/Q115264680" + "> .")
+lines.append("nomt:" + "cs01" + " " +
+             "dct:identifier" + " wd:Q115264680" + " .")
 lines.append("wd:Q115264680 rdfs:label 'NAVIS.one Ship Database'@en .")
-lines.append("nomt:" + "cs01" + " " + "dct:publisher" + " <" +
-             "http://www.wikidata.org/entity/Q115264627" + "> .")
+lines.append("nomt:" + "cs01" + " " +
+             "dct:publisher" + " wd:Q115264627" + " .")
 lines.append(
     "wd:Q115264627 rdfs:label 'Department of Research Software Engineering at LEIZA '@en .")
-lines.append("nomt:" + "cs01" + " " + "dct:creator" + " <" +
-             "http://www.wikidata.org/entity/Q66606154" + "> .")
+lines.append("nomt:" + "cs01" + " " +
+             "dct:creator" + " wd:Q66606154" + " .")
 lines.append("wd:Q66606154 rdfs:label 'Florian Thiery M.Sc.'@en .")
-lines.append("nomt:" + "cs01" + " " + "dct:creator" + " <" +
-             "http://www.wikidata.org/entity/Q88865971" + "> .")
+lines.append("nomt:" + "cs01" + " " +
+             "dct:creator" + " wd:Q88865971" + " .")
 lines.append("wd:Q88865971 rdfs:label 'Dr. Allard Wijnand Mees FSA'@en .")
 lines.append("nomt:" + "cs01" + " " + "dct:date" + " '2022-11-18' .")
+lines.append("nomt:" + "cs01" + " " + "dct:created" + " '2022-11-18' .")
+lines.append("nomt:" + "cs01" + " " + "dct:modified '" +
+             datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%fZ") + "'^^xsd:dateTime .")
 lines.append("")
 
 # add parent items
@@ -107,16 +110,20 @@ for index, row in data.iterrows():
     # metadata
     lines.append("nomt:" + str(thisid) + " " + "cc:license" + " <" +
                  "http://creativecommons.org/licenses/by-sa/4.0/" + "> .")
-    lines.append("nomt:" + str(thisid) + " " + "cc:attributionURL" +
-                 " <" + "http://www.wikidata.org/entity/Q115264627" + "> .")
+    lines.append("nomt:" + str(thisid) + " " +
+                 "cc:attributionURL" + " wd:Q115264627" + " .")
     lines.append("nomt:" + str(thisid) + " " + "cc:attributionName" + " '" +
-                 "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des LEIZA" + "' .")
-    lines.append("nomt:" + str(thisid) + " " + "dct:publisher" +
-                 " <" + "http://www.wikidata.org/entity/Q115264627" + "> .")
-    lines.append("nomt:" + str(thisid) + " " + "dct:identifier" + " <" +
-                 "http://data.archaeology.link/data/maritimethesaurus/" + "> .")
+                 "Arbeitsbereich Wissenschaftliche IT, Digitale Plattformen und Tools des LEIZA" + "' .")
+    lines.append("nomt:" + str(thisid) + " " +
+                 "dct:publisher" + " wd:Q115264627" + " .")
+    lines.append("nomt:" + str(thisid) + " " +
+                 "dct:identifier" + " nomt:" + str(thisid) + " .")
     lines.append("nomt:" + str(thisid) + " " + "dct:issued '" +
                  datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%fZ") + "'^^xsd:dateTime .")
+    lines.append("nomt:" + str(thisid) + " " + "dct:modified '" +
+                 datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%fZ") + "'^^xsd:dateTime .")
+    lines.append("nomt:" + str(thisid) + " " +
+                 "dct:created" + " '2022-11-18' .")
     # item
     if str(row['de']) != 'nan':
         lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" +
@@ -171,12 +178,12 @@ for index, row in data.iterrows():
     # prov-o
     lines.append("nomt:" + str(thisid) + " " +
                  "prov:wasAttributedTo" + " nomt:ImportPythonScript .")
-    lines.append("nomt:" + str(thisid) + " " + "prov:wasDerivedFrom" +
-                 " <http://www.wikidata.org/entity/Q115264680> .")
+    lines.append("nomt:" + str(thisid) + " " +
+                 "prov:wasDerivedFrom" + " wd:Q115264680" + " .")
     lines.append("nomt:" + str(thisid) + " " +
                  "prov:wasGeneratedBy" + " nomt:activity_" + str(thisid) + " .")
-    lines.append("nomt:activity_" + str(thisid) + " " +
-                 "rdf:type" + " <http://www.w3.org/ns/prov#Activity> .")
+    lines.append("nomt:activity_" + str(thisid) +
+                 " " + "rdf:type" + " prov:Activity .")
     lines.append("nomt:activity_" + str(thisid) + " " +
                  "prov:startedAtTime '" + starttime + "'^^xsd:dateTime .")
     lines.append("nomt:activity_" + str(thisid) + " " + "prov:endedAtTime '" +
@@ -223,16 +230,21 @@ for index, row in data2.iterrows():
     # metadata
     lines.append("nomt:" + str(thisid) + " " + "cc:license" + " <" +
                  "http://creativecommons.org/licenses/by-sa/4.0/" + "> .")
-    lines.append("nomt:" + str(thisid) + " " + "cc:attributionURL" +
-                 " <" + "http://www.wikidata.org/entity/Q115264627" + "> .")
+    lines.append("nomt:" + str(thisid) + " " +
+                 "cc:attributionURL" + " wd:Q115264627" + " .")
     lines.append("nomt:" + str(thisid) + " " + "cc:attributionName" + " '" +
-                 "Arbeitsbereich Wissenschaftliche IT, digitale Plattformen und Tools des LEIZA" + "' .")
-    lines.append("nomt:" + str(thisid) + " " + "dct:publisher" +
-                 " <" + "http://www.wikidata.org/entity/Q115264627" + "> .")
-    lines.append("nomt:" + str(thisid) + " " + "dct:identifier" + " <" +
-                 "http://data.archaeology.link/data/maritimethesaurus/" + "> .")
+                 "Arbeitsbereich Wissenschaftliche IT, Digitale Plattformen und Tools des LEIZA" + "' .")
+    lines.append("nomt:" + str(thisid) + " " +
+                 "dct:publisher" + " wd:Q115264627" + " .")
+
+    lines.append("nomt:" + str(thisid) + " " +
+                 "dct:identifier" + " nomt:" + str(thisid) + " .")
     lines.append("nomt:" + str(thisid) + " " + "dct:issued '" +
                  datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%fZ") + "'^^xsd:dateTime .")
+    lines.append("nomt:" + str(thisid) + " " + "dct:modified '" +
+                 datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%fZ") + "'^^xsd:dateTime .")
+    lines.append("nomt:" + str(thisid) + " " +
+                 "dct:created" + " '2022-11-18' .")
     # item
     if str(row['de']) != 'nan':
         lines.append("nomt:" + str(thisid) + " " + "skos:prefLabel '" +
@@ -311,8 +323,8 @@ for index, row in data2.iterrows():
     # prov-o
     lines.append("nomt:" + str(thisid) + " " +
                  "prov:wasAttributedTo" + " nomt:ImportPythonScript .")
-    lines.append("nomt:" + str(thisid) + " " + "prov:wasDerivedFrom" +
-                 " <http://www.wikidata.org/entity/Q115264680> .")
+    lines.append("nomt:" + str(thisid) + " " +
+                 "prov:wasDerivedFrom" + " wd:Q115264680" + " .")
     lines.append("nomt:" + str(thisid) + " " +
                  "prov:wasGeneratedBy" + " nomt:activity_" + str(thisid) + " .")
     lines.append("nomt:activity_" + str(thisid) + " " +
