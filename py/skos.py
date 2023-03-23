@@ -43,7 +43,7 @@ print(file_in2)
 data = pd.read_csv(
     file_in,
     encoding='utf-8',
-    sep='|',
+    sep=',',
     usecols=['id', 'de', 'en', 'dk', 'nl', 'fr',
              'it', 'es', 'pl', 'gr', 'he', 'navisid']
 )
@@ -233,7 +233,7 @@ for index, row in data2.iterrows():
     if tmpno % 50 == 0:
         print(tmpno)
     lineNo += 1
-    thisid = int(str(row['id'])) + 2000
+    thisid = str(row['id'])
     fkid = int(str(row['fk_id_parent'])) + 1000
     lines.append("nomt:" + str(thisid) + " " + "rdf:type" + " skos:Concept .")
     lines.append("nomt:" + str(thisid) + " " + "rdf:type" + " rdfs:Class .")
