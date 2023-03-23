@@ -66,6 +66,17 @@ lines.append("nomt:ImportPythonScript" + " " + "rdfs:seeAlso" + " " +
              "<https://github.com/archaeolink/navisone-maritime-thesaurus/blob/main/py/skos.py> .")
 lines.append("nomt:ImportPythonScript" + " " + "dct:source" + " " +
              "<https://github.com/archaeolink/navisone-maritime-thesaurus/blob/main/py/skos.py> .")
+lines.append("nomt:ImportPythonScript" + " " +
+             "dct:source" + " " + " wd:Q66606154" + " .")
+lines.append("wd:Q66606154 rdfs:label 'Florian Thiery M.Sc.'@en .")
+lines.append("nomt:ImportPythonScript" + " " +
+             "dct:license" + " " + "<https://github.com/archaeolink/navisone-maritime-thesaurus/blob/main/LICENCE>" + " .")
+lines.append("nomt:ImportPythonScript" + " " +
+             "dct:license" + " " + "'MIT License'@en" + " .")
+lines.append("nomt:ImportPythonScript" + " " +
+             "dct:bibliographicCitation" + " " + "'10.5281/zenodo.7353771'" + " .")
+lines.append("nomt:ImportPythonScript" + " " +
+             "dct:bibliographicCitation" + " " + "<https://github.com/archaeolink/navisone-maritime-thesaurus/blob/main/CITATION.cff>" + " .")
 
 # create skos:Concept Scheme
 
