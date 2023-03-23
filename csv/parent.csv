@@ -1,17 +1,17 @@
-id,navisid,de,en,dk,nl,fr,it,es,pl,gr,he
-1,NULL,<Schiffsfunktion>,<ship function>,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-2,NULL,<Arbeitsumgebung>,<operating environment>,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-6,2351,<Rumpf>,<hull>,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-7,2352,<Innenkonstruktion>,<internal construction>,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-8,2353,<Decks und Weger>,<decks and ceilings>,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-3,NULL,<Antrieb>,<propulsion>,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-4,NULL,<Schiffstyp>,<ship type>,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-9,2354,<Konstruktionsmerkmale>,<constructional features>,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-10,2355,<Besegelung>,<sailing gear>,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-11,2356,<Ruderanlage>,<steering gear>,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-12,2357,<Rudern und paddeln>,<rowing and paddling>,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-13,2358,<Staken und treideln>,<punting and towing>,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-14,2359,<Handhabung>,<handling>,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-15,2360,<Kriegsführung>,<warfare>,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-16,2361,<Oberflächenbehandlung>,<surface treatment>,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-19,2364,<Aufbauten>,<superstructure>,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"id","navisid","de","en","dk","nl","fr","it","es","pl","gr","he"
+1,"NULL","[Schiffsfunktion]","[ship function]","NULL","NULL","NULL","NULL","NULL","NULL","NULL","NULL"
+2,"NULL","[Arbeitsumgebung]","[operating environment]","NULL","NULL","NULL","NULL","NULL","NULL","NULL","NULL"
+6,2351,"[Rumpf]","[hull]","NULL","NULL","NULL","NULL","NULL","NULL","NULL","NULL"
+7,2352,"[Innenkonstruktion]","[internal construction]","NULL","NULL","NULL","NULL","NULL","NULL","NULL","NULL"
+8,2353,"[Decks und Weger]","[decks and ceilings]","NULL","NULL","NULL","NULL","NULL","NULL","NULL","NULL"
+3,"NULL","[Antrieb]","[propulsion]","NULL","NULL","NULL","NULL","NULL","NULL","NULL","NULL"
+4,"NULL","[Schiffstyp]","[ship type]","NULL","NULL","NULL","NULL","NULL","NULL","NULL","NULL"
+9,2354,"[Konstruktionsmerkmale]","[constructional features]","NULL","NULL","NULL","NULL","NULL","NULL","NULL","NULL"
+10,2355,"[Besegelung]","[sailing gear]","NULL","NULL","NULL","NULL","NULL","NULL","NULL","NULL"
+11,2356,"[Ruderanlage]","[steering gear]","NULL","NULL","NULL","NULL","NULL","NULL","NULL","NULL"
+12,2357,"[Rudern und paddeln]","[rowing and paddling]","NULL","NULL","NULL","NULL","NULL","NULL","NULL","NULL"
+13,2358,"[Staken und treideln]","[punting and towing]","NULL","NULL","NULL","NULL","NULL","NULL","NULL","NULL"
+14,2359,"[Handhabung]","[handling]","NULL","NULL","NULL","NULL","NULL","NULL","NULL","NULL"
+15,2360,"[Kriegsführung]","[warfare]","NULL","NULL","NULL","NULL","NULL","NULL","NULL","NULL"
+16,2361,"[Oberflächenbehandlung]","[surface treatment]","NULL","NULL","NULL","NULL","NULL","NULL","NULL","NULL"
+19,2364,"[Aufbauten]","[superstructure]","NULL","NULL","NULL","NULL","NULL","NULL","NULL","NULL"
