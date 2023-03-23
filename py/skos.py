@@ -220,7 +220,7 @@ for index, row in data.iterrows():
 data2 = pd.read_csv(
     file_in2,
     encoding='utf-8',
-    sep='|',
+    sep=',',
     usecols=['id', 'navisid', 'de', 'en', 'dk', 'nl', 'fr', 'it', 'es', 'pl', 'gr', 'he', 'desc_en', 'desc_de',
              'origindesc', 'fk_id_parent', 'gettyaat', 'gettyaatrelationtype', 'wikidata', 'wikidatarelationtype']
 )
