@@ -59,6 +59,8 @@ lines = []
 lines.append("nomt:" + "cs01" + " " + "rdf:type" + " skos:ConceptScheme .")
 lines.append("nomt:" + "cs01" + " " + "dct:license" + " <" +
              "http://creativecommons.org/licenses/by-sa/4.0/" + "> .")
+lines.append(
+    "<http://creativecommons.org/licenses/by-sa/4.0/> rdfs:label 'CC BY-SA 4.0'@en .")
 lines.append("nomt:" + "cs01" + " " + "cc:license" + " <" +
              "http://creativecommons.org/licenses/by-sa/4.0/" + "> .")
 lines.append("nomt:" + "cs01" + " " + "cc:attributionURL" + " <" +
@@ -71,8 +73,11 @@ lines.append("nomt:" + "cs01" + " " + "rdfs:label" +
              " 'NAVISone Maritime Thesaurus' .")
 lines.append("nomt:" + "cs01" + " " + "dct:identifier" + " <" +
              "http://www.wikidata.org/entity/Q115264680" + "> .")
+lines.append("wd:Q115264680 rdfs:label 'NAVIS.one Ship Database'@en .")
 lines.append("nomt:" + "cs01" + " " + "dct:publisher" + " <" +
              "http://www.wikidata.org/entity/Q115264627" + "> .")
+lines.append(
+    "wd:Q115264627 rdfs:label 'Department of Research Software Engineering at LEIZA '@en .")
 lines.append("nomt:" + "cs01" + " " + "dct:creator" + " <" +
              "http://www.wikidata.org/entity/Q66606154" + "> .")
 lines.append("wd:Q66606154 rdfs:label 'Florian Thiery M.Sc.'@en .")
