@@ -67,7 +67,7 @@ lines.append("nomt:ImportPythonScript" + " " + "rdfs:seeAlso" + " " +
 lines.append("nomt:ImportPythonScript" + " " + "dct:source" + " " +
              "<https://github.com/archaeolink/navisone-maritime-thesaurus/blob/main/py/skos.py> .")
 lines.append("nomt:ImportPythonScript" + " " +
-             "dct:source" + " " + " wd:Q66606154" + " .")
+             "dct:creator" + " " + " wd:Q66606154" + " .")
 lines.append("wd:Q66606154 rdfs:label 'Florian Thiery M.Sc.'@en .")
 lines.append("nomt:ImportPythonScript" + " " +
              "dct:license" + " " + "<https://github.com/archaeolink/navisone-maritime-thesaurus/blob/main/LICENCE>" + " .")
